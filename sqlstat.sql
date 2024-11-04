@@ -1,7 +1,11 @@
+DECLARE @SQL AS VARCHAR(MAX) = '';
+
 SELECT 
+    @SQL = @SQL + 
     'IF OBJECT_ID(''' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ''',''U'') IS NOT NULL DROP EXTERNAL TABLE ' + 
     QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + '; CREATE EXTERNAL TABLE ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ' (' + 
-        CAST(STRING_AGG(' ' + QUOTENAME(c.name) + ' ' + ty.name + 
+    STRING_AGG(
+        CAST(' ' + QUOTENAME(c.name) + ' ' + ty.name + 
             CASE 
                 WHEN ty.name IN ('varchar', 'char', 'nvarchar', 'nchar') THEN 
                     '(' + CAST(c.max_length / CASE WHEN ty.name IN ('nvarchar', 'nchar') THEN 2 ELSE 1 END AS NVARCHAR(10)) + ')'
@@ -14,7 +18,8 @@ SELECT
             CASE 
                 WHEN c.is_nullable = 0 THEN ' NOT NULL'
                 ELSE ' NULL'
-            END, ', ') WITHIN GROUP (ORDER BY c.column_id) AS VARCHAR(MAX)) + 
+            END AS NVARCHAR(MAX))
+        , ', ') WITHIN GROUP (ORDER BY c.column_id) + 
     ')' + 
     ' WITH (' + 
     'LOCATION = ''' + et.location + ''', ' + 
@@ -31,3 +36,5 @@ WHERE t.is_external = 1
 AND t.name LIKE 'ext_idl_%'
 AND s.name = 'dbo'
 GROUP BY s.name, t.name, et.location, eds.name, eff.name;
+
+PRINT @SQL;
