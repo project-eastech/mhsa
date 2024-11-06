@@ -1,40 +1,68 @@
-DECLARE @SQL AS VARCHAR(MAX) = '';
+import pyodbc
 
-SELECT 
-    @SQL = @SQL + 
-    'IF OBJECT_ID(''' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ''',''U'') IS NOT NULL DROP EXTERNAL TABLE ' + 
-    QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + '; CREATE EXTERNAL TABLE ' + QUOTENAME(s.name) + '.' + QUOTENAME(t.name) + ' (' + 
-    STRING_AGG(
-        CAST(' ' + QUOTENAME(c.name) + ' ' + ty.name + 
-            CASE 
-                WHEN ty.name IN ('varchar', 'char', 'nvarchar', 'nchar') THEN 
-                    '(' + CAST(c.max_length / CASE WHEN ty.name IN ('nvarchar', 'nchar') THEN 2 ELSE 1 END AS NVARCHAR(10)) + ')'
-                WHEN ty.name IN ('datetime2', 'datetimeoffset', 'time') AND c.scale > 0 THEN 
-                    '(' + CAST(c.scale AS NVARCHAR(10)) + ')'
-                WHEN ty.name IN ('decimal', 'numeric') THEN 
-                    '(' + CAST(c.precision AS NVARCHAR(10)) + ', ' + CAST(c.scale AS NVARCHAR(10)) + ')'
-                ELSE ''
-            END + 
-            CASE 
-                WHEN c.is_nullable = 0 THEN ' NOT NULL'
-                ELSE ' NULL'
-            END AS NVARCHAR(MAX))
-        , ', ') WITHIN GROUP (ORDER BY c.column_id) + 
-    ')' + 
-    ' WITH (' + 
-    'LOCATION = ''' + et.location + ''', ' + 
-    'DATA_SOURCE = ' + QUOTENAME(REPLACE(REPLACE(eds.name, 'hksynd', 'hksynp'), 'uat', 'prd')) + ', ' + 
-    'FILE_FORMAT = ' + QUOTENAME(eff.name) + ', REJECT_TYPE = VALUE, REJECT_VALUE = 0);'
-FROM sys.tables AS t
-JOIN sys.schemas AS s ON t.schema_id = s.schema_id
-JOIN sys.columns AS c ON t.object_id = c.object_id
-JOIN sys.external_tables AS et ON t.object_id = et.object_id
-JOIN sys.types AS ty ON c.user_type_id = ty.user_type_id
-JOIN sys.external_data_sources AS eds ON et.data_source_id = eds.data_source_id
-JOIN sys.external_file_formats AS eff ON et.file_format_id = eff.file_format_id
-WHERE t.is_external = 1
-AND t.name LIKE 'ext_idl_%'
-AND s.name = 'dbo'
-GROUP BY s.name, t.name, et.location, eds.name, eff.name;
+# Database connection setup
+conn_str = (
+    "DRIVER={ODBC Driver 17 for SQL Server};"
+    "SERVER=your_server_name;"
+    "DATABASE=ReportServer;"
+    "UID=your_username;"
+    "PWD=your_password;"
+)
+connection = pyodbc.connect(conn_str)
+cursor = connection.cursor()
 
-PRINT @SQL;
+# Define the subscription ID you want to update
+subscription_id = 'b7e97efc-0859-4f5f-931f-202ed8e6727a'
+
+try:
+    # Step 1: Retrieve all date values from the date_list table
+    select_dates_query = "SELECT CAST(date_column AS NVARCHAR(50)) AS date_value FROM dbo.date_list"  # Replace 'date_column' with the actual column name in date_list
+    cursor.execute(select_dates_query)
+    date_rows = cursor.fetchall()
+    
+    # Step 2: Loop through each date value, update the parameter, and call the stored procedure
+    for date_row in date_rows:
+        date_value = date_row.date_value
+        print(f"Updating subscription with date: {date_value}")
+
+        # Step 3: Update the Parameters column with the current date value
+        update_query = """
+        DECLARE @NewParameterValue NVARCHAR(50) = ?;
+        DECLARE @SubscriptionID UNIQUEIDENTIFIER = ?;
+
+        -- Convert NTEXT to XML for modification, and perform the update
+        DECLARE @ParametersXML XML;
+
+        SELECT @ParametersXML = CAST(Parameters AS XML)
+        FROM dbo.Subscriptions
+        WHERE SubscriptionID = @SubscriptionID;
+
+        -- Modify the XML
+        SET @ParametersXML.modify('
+            replace value of (/Parameters/Parameter[Name="ReportDate"]/Value/text())[1]
+            with sql:variable("@NewParameterValue")
+        ');
+
+        -- Update the Parameters column with the modified XML, casting to NVARCHAR(MAX)
+        UPDATE dbo.Subscriptions
+        SET Parameters = CAST(@ParametersXML AS NVARCHAR(MAX))
+        WHERE SubscriptionID = @SubscriptionID;
+        """
+
+        # Execute the update query with the current date value
+        cursor.execute(update_query, (date_value, subscription_id))
+        connection.commit()
+        print(f"Subscription parameter updated with date: {date_value}")
+
+        # Step 4: Call the stored procedure to trigger the subscription
+        cursor.execute("EXEC sp_main_trigger_subscription")
+        connection.commit()
+        print("Subscription triggered successfully.")
+
+except Exception as e:
+    print("An error occurred:", e)
+
+finally:
+    # Close the database connection
+    cursor.close()
+    connection.close()
