@@ -1,68 +1,74 @@
-import pyodbc
-
-# Database connection setup
-conn_str = (
-    "DRIVER={ODBC Driver 17 for SQL Server};"
-    "SERVER=your_server_name;"
-    "DATABASE=ReportServer;"
-    "UID=your_username;"
-    "PWD=your_password;"
-)
-connection = pyodbc.connect(conn_str)
-cursor = connection.cursor()
-
-# Define the subscription ID you want to update
-subscription_id = 'b7e97efc-0859-4f5f-931f-202ed8e6727a'
-
-try:
-    # Step 1: Retrieve all date values from the date_list table
-    select_dates_query = "SELECT CAST(date_column AS NVARCHAR(50)) AS date_value FROM dbo.date_list"  # Replace 'date_column' with the actual column name in date_list
-    cursor.execute(select_dates_query)
-    date_rows = cursor.fetchall()
+CREATE PROCEDURE UpdateDynamicSubscriptionParameters
+    @SubscriptionID UNIQUEIDENTIFIER,
+    @NewParameterValue1 NVARCHAR(50) = NULL,
+    @NewParameterValue2 NVARCHAR(50) = NULL,
+    @NewParameterValue3 NVARCHAR(50) = NULL
+AS
+BEGIN
+    SET NOCOUNT ON;
     
-    # Step 2: Loop through each date value, update the parameter, and call the stored procedure
-    for date_row in date_rows:
-        date_value = date_row.date_value
-        print(f"Updating subscription with date: {date_value}")
+    DECLARE @ParametersXML XML;
 
-        # Step 3: Update the Parameters column with the current date value
-        update_query = """
-        DECLARE @NewParameterValue NVARCHAR(50) = ?;
-        DECLARE @SubscriptionID UNIQUEIDENTIFIER = ?;
+    -- Step 1: Retrieve the current Parameters XML, cast from NTEXT to XML
+    SELECT @ParametersXML = CAST(Parameters AS XML)
+    FROM ReportServer.dbo.Subscriptions
+    WHERE SubscriptionID = @SubscriptionID;
 
-        -- Convert NTEXT to XML for modification, and perform the update
-        DECLARE @ParametersXML XML;
+    -- Check if the Parameters XML was successfully retrieved
+    IF @ParametersXML IS NOT NULL
+    BEGIN
+        DECLARE @ParameterNames TABLE (ParameterName NVARCHAR(50), ParameterIndex INT);
 
-        SELECT @ParametersXML = CAST(Parameters AS XML)
-        FROM dbo.Subscriptions
+        -- Step 2: Extract all parameter names and their order
+        INSERT INTO @ParameterNames (ParameterName, ParameterIndex)
+        SELECT T.ParameterName.value('.', 'NVARCHAR(50)') AS ParameterName, 
+               ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS ParameterIndex
+        FROM @ParametersXML.nodes('/Parameters/Parameter/Name') AS T(ParameterName);
+
+        -- Update each parameter based on the number of new values provided and available parameters
+        IF EXISTS (SELECT 1 FROM @ParameterNames WHERE ParameterIndex = 1) AND @NewParameterValue1 IS NOT NULL
+        BEGIN
+            DECLARE @ParameterName1 NVARCHAR(50);
+            SELECT @ParameterName1 = ParameterName FROM @ParameterNames WHERE ParameterIndex = 1;
+
+            SET @ParametersXML.modify('
+                replace value of (/Parameters/Parameter[Name=sql:variable("@ParameterName1")]/Value/text())[1]
+                with sql:variable("@NewParameterValue1")
+            ');
+        END
+
+        IF EXISTS (SELECT 1 FROM @ParameterNames WHERE ParameterIndex = 2) AND @NewParameterValue2 IS NOT NULL
+        BEGIN
+            DECLARE @ParameterName2 NVARCHAR(50);
+            SELECT @ParameterName2 = ParameterName FROM @ParameterNames WHERE ParameterIndex = 2;
+
+            SET @ParametersXML.modify('
+                replace value of (/Parameters/Parameter[Name=sql:variable("@ParameterName2")]/Value/text())[1]
+                with sql:variable("@NewParameterValue2")
+            ');
+        END
+
+        IF EXISTS (SELECT 1 FROM @ParameterNames WHERE ParameterIndex = 3) AND @NewParameterValue3 IS NOT NULL
+        BEGIN
+            DECLARE @ParameterName3 NVARCHAR(50);
+            SELECT @ParameterName3 = ParameterName FROM @ParameterNames WHERE ParameterIndex = 3;
+
+            SET @ParametersXML.modify('
+                replace value of (/Parameters/Parameter[Name=sql:variable("@ParameterName3")]/Value/text())[1]
+                with sql:variable("@NewParameterValue3")
+            ');
+        END
+
+        -- Step 4: Update the Parameters column with the modified XML, cast back to NTEXT
+        UPDATE ReportServer.dbo.Subscriptions
+        SET Parameters = CAST(@ParametersXML AS NTEXT)
         WHERE SubscriptionID = @SubscriptionID;
 
-        -- Modify the XML
-        SET @ParametersXML.modify('
-            replace value of (/Parameters/Parameter[Name="ReportDate"]/Value/text())[1]
-            with sql:variable("@NewParameterValue")
-        ');
-
-        -- Update the Parameters column with the modified XML, casting to NVARCHAR(MAX)
-        UPDATE dbo.Subscriptions
-        SET Parameters = CAST(@ParametersXML AS NVARCHAR(MAX))
-        WHERE SubscriptionID = @SubscriptionID;
-        """
-
-        # Execute the update query with the current date value
-        cursor.execute(update_query, (date_value, subscription_id))
-        connection.commit()
-        print(f"Subscription parameter updated with date: {date_value}")
-
-        # Step 4: Call the stored procedure to trigger the subscription
-        cursor.execute("EXEC sp_main_trigger_subscription")
-        connection.commit()
-        print("Subscription triggered successfully.")
-
-except Exception as e:
-    print("An error occurred:", e)
-
-finally:
-    # Close the database connection
-    cursor.close()
-    connection.close()
+        PRINT 'Parameters updated successfully.';
+    END
+    ELSE
+    BEGIN
+        PRINT 'Subscription not found or Parameters XML is NULL.';
+    END
+END;
+GO
