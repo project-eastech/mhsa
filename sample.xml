@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xml:base="https://mizuhosecuritiesasialtd.sharepoint.com/sites/hkmap/ops/_api/"
+	xmlns="http://www.w3.org/2005/Atom"
+	xmlns:d="http://schemas.microsoft.com/ado/2007/08/dataservices"
+	xmlns:m="http://schemas.microsoft.com/ado/2007/08/dataservices/metadata"
+	xmlns:georss="http://www.georss.org/georss"
+	xmlns:gml="http://www.opengis.net/gml">
+	<id>62bfeb12-0d8f-4d61-a445-2419a68102ab</id>
+	<title />
+	<updated>2024-11-21T12:49:04Z</updated>
+	<entry m:etag="&quot;691&quot;">
+		<id>25a75606-2d36-4e3b-a83f-16b33daac253</id>
+		<category term="SP.Data.OPS_x0020_Daily_x0020_Performance_x0020_ReportListItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+		<link rel="edit" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FirstUniqueAncestorSecurableObject" type="application/atom+xml;type=entry" title="FirstUniqueAncestorSecurableObject" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/FirstUniqueAncestorSecurableObject" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/RoleAssignments" type="application/atom+xml;type=feed" title="RoleAssignments" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/RoleAssignments" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AttachmentFiles" type="application/atom+xml;type=feed" title="AttachmentFiles" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/AttachmentFiles" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ContentType" type="application/atom+xml;type=entry" title="ContentType" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/ContentType" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/GetDlpPolicyTip" type="application/atom+xml;type=entry" title="GetDlpPolicyTip" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/GetDlpPolicyTip" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsHtml" type="application/atom+xml;type=entry" title="FieldValuesAsHtml" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/FieldValuesAsHtml" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsText" type="application/atom+xml;type=entry" title="FieldValuesAsText" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/FieldValuesAsText" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesForEdit" type="application/atom+xml;type=entry" title="FieldValuesForEdit" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/FieldValuesForEdit" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/File" type="application/atom+xml;type=entry" title="File" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/File" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Folder" type="application/atom+xml;type=entry" title="Folder" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/Folder" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/LikedByInformation" type="application/atom+xml;type=entry" title="LikedByInformation" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/LikedByInformation" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ParentList" type="application/atom+xml;type=entry" title="ParentList" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/ParentList" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Properties" type="application/atom+xml;type=entry" title="Properties" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/Properties" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Versions" type="application/atom+xml;type=feed" title="Versions" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(1)/Versions" />
+		<title />
+		<updated>2024-11-21T12:49:04Z</updated>
+		<author>
+			<name />
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:FileSystemObjectType m:type="Edm.Int32">0</d:FileSystemObjectType>
+				<d:Id m:type="Edm.Int32">1</d:Id>
+				<d:ServerRedirectedEmbedUri m:null="true" />
+				<d:ServerRedirectedEmbedUrl></d:ServerRedirectedEmbedUrl>
+				<d:ContentTypeId>0x0100EA8606020EBC4E41AE17056EB6A4CF18</d:ContentTypeId>
+				<d:Title>MHSA and MHSS and MMFS - Daily Performance Report Template_20231122</d:Title>
+				<d:OData__ColorTag m:null="true" />
+				<d:ComplianceAssetId m:null="true" />
+				<d:ID m:type="Edm.Int32">1</d:ID>
+				<d:Modified m:type="Edm.DateTime">2023-12-05T10:09:32Z</d:Modified>
+				<d:Created m:type="Edm.DateTime">2023-11-22T08:54:41Z</d:Created>
+				<d:AuthorId m:type="Edm.Int32">758</d:AuthorId>
+				<d:EditorId m:type="Edm.Int32">816</d:EditorId>
+				<d:OData__UIVersionString>320.0</d:OData__UIVersionString>
+				<d:Attachments m:type="Edm.Boolean">true</d:Attachments>
+				<d:GUID m:type="Edm.Guid">1d505f74-be42-4840-a162-d630d9b6cb90</d:GUID>
+			</m:properties>
+		</content>
+	</entry>
+		<entry m:etag="&quot;122&quot;">
+		<id>ae24b89b-a31e-4e6c-b3bc-c9e923efe0ef</id>
+		<category term="SP.Data.OPS_x0020_Daily_x0020_Performance_x0020_ReportListItem" scheme="http://schemas.microsoft.com/ado/2007/08/dataservices/scheme" />
+		<link rel="edit" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FirstUniqueAncestorSecurableObject" type="application/atom+xml;type=entry" title="FirstUniqueAncestorSecurableObject" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/FirstUniqueAncestorSecurableObject" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/RoleAssignments" type="application/atom+xml;type=feed" title="RoleAssignments" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/RoleAssignments" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/AttachmentFiles" type="application/atom+xml;type=feed" title="AttachmentFiles" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/AttachmentFiles" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ContentType" type="application/atom+xml;type=entry" title="ContentType" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/ContentType" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/GetDlpPolicyTip" type="application/atom+xml;type=entry" title="GetDlpPolicyTip" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/GetDlpPolicyTip" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsHtml" type="application/atom+xml;type=entry" title="FieldValuesAsHtml" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/FieldValuesAsHtml" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesAsText" type="application/atom+xml;type=entry" title="FieldValuesAsText" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/FieldValuesAsText" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/FieldValuesForEdit" type="application/atom+xml;type=entry" title="FieldValuesForEdit" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/FieldValuesForEdit" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/File" type="application/atom+xml;type=entry" title="File" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/File" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Folder" type="application/atom+xml;type=entry" title="Folder" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/Folder" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/LikedByInformation" type="application/atom+xml;type=entry" title="LikedByInformation" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/LikedByInformation" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/ParentList" type="application/atom+xml;type=entry" title="ParentList" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/ParentList" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Properties" type="application/atom+xml;type=entry" title="Properties" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/Properties" />
+		<link rel="http://schemas.microsoft.com/ado/2007/08/dataservices/related/Versions" type="application/atom+xml;type=feed" title="Versions" href="Web/Lists(guid'9462b8b9-8bbf-4c1c-b0e7-b15d36fe0fab')/Items(113)/Versions" />
+		<title />
+		<updated>2024-11-21T12:49:04Z</updated>
+		<author>
+			<name />
+		</author>
+		<content type="application/xml">
+			<m:properties>
+				<d:FileSystemObjectType m:type="Edm.Int32">0</d:FileSystemObjectType>
+				<d:Id m:type="Edm.Int32">113</d:Id>
+				<d:ServerRedirectedEmbedUri m:null="true" />
+				<d:ServerRedirectedEmbedUrl></d:ServerRedirectedEmbedUrl>
+				<d:ContentTypeId>0x0100EA8606020EBC4E41AE17056EB6A4CF18</d:ContentTypeId>
+				<d:Title>MHSA and MHSS and MMFS - Daily Performance Report Template_20240409</d:Title>
+				<d:OData__ColorTag m:null="true" />
+				<d:ComplianceAssetId m:null="true" />
+				<d:ID m:type="Edm.Int32">113</d:ID>
+				<d:Modified m:type="Edm.DateTime">2024-04-10T09:38:32Z</d:Modified>
+				<d:Created m:type="Edm.DateTime">2024-04-08T03:41:33Z</d:Created>
+				<d:AuthorId m:type="Edm.Int32">758</d:AuthorId>
+				<d:EditorId m:type="Edm.Int32">1708</d:EditorId>
+				<d:OData__UIVersionString>59.0</d:OData__UIVersionString>
+				<d:Attachments m:type="Edm.Boolean">true</d:Attachments>
+				<d:GUID m:type="Edm.Guid">fa6a3ce2-c408-4668-bf80-1ac06ca6043b</d:GUID>
+			</m:properties>
+		</content>
+	</entry>
+	<link rel="next" href="https://mizuhosecuritiesasialtd.sharepoint.com/sites/hkmap/ops/_api/web/lists/getbytitle(%27OPS%20Daily%20Performance%20Report%27)/items?%24skiptoken=Paged%3dTRUE%26p_ID%3d113" />
+</feed>
