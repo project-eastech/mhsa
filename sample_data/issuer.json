@@ -1,0 +1,202 @@
+[
+  {
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_xsi:noNamespaceSchemaLocation": "http://svc-bdmentity01p:8080/schema/12.3.0/com/mizuho/bdm/cmf/cmfParty.xsd",
+    "vendor": "goldenSource",
+    "issuerName": "Trinity Investments DAC",
+    "status": "ACTIVE",
+    "lastUpdatedTime": "2019-06-06T16:39:57.000Z",
+    "partyLastUpdated": "2022-02-06T22:21:57.000Z",
+    "riskUltimateParent": {
+      "ultimateParentName": "Attestor Capital LLP",
+      "ultimateParentCntryOfDomicile": "GB",
+      "ultimateParentCntryOfIncorporation": "GB",
+      "ultimateParentCntryOfRisk": "GB",
+      "identifier": [
+        {
+          "type": "CLIENTREF",
+          "id": "ATTESTRC"
+        },
+        {
+          "type": "Bloomberg Company Id",
+          "id": "33528365"
+        },
+        {
+          "type": "Group Id",
+          "id": "33528365 G"
+        },
+        {
+          "type": "LEI",
+          "id": "213800E3AGMHAN7ERX82"
+        }
+      ]
+    },
+    "immediateParent": {
+      "name": "Attestor Capital LLP",
+      "identifier": [
+        {
+          "type": "CLIENTREF",
+          "id": "ATTESTRC"
+        },
+        {
+          "type": "Bloomberg Company Id",
+          "id": "33528365"
+        }
+      ]
+    },
+    "identifiers": {
+      "identifier": [
+        {
+          "type": "Bloomberg Company Id",
+          "id": "40644636"
+        },
+        {
+          "type": "Client Reference",
+          "id": "TRINITYNA"
+        },
+        {
+          "type": "LEI",
+          "id": "213800XEE5FQCHX9AQ23"
+        },
+        {
+          "type": "BBG Company Name",
+          "id": "Trinity Investments DAC"
+        }
+      ]
+    },
+    "geographicProfile": {
+      "relationship": [
+        {
+          "relationshipType": "Incorporation",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO2",
+            "identifierCode": "IE"
+          }
+        },
+        {
+          "relationshipType": "Incorporation",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO3",
+            "identifierCode": "IRL"
+          },
+          "startDate": "2007-12-07T00:00:00.000Z"
+        },
+        {
+          "relationshipType": "Residence",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO2",
+            "identifierCode": "IE"
+          }
+        },
+        {
+          "relationshipType": "Residence",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO3",
+            "identifierCode": "IRL"
+          },
+          "startDate": "2007-12-07T00:00:00.000Z"
+        },
+        {
+          "relationshipType": "Risk",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO2",
+            "identifierCode": "GB"
+          }
+        },
+        {
+          "relationshipType": "Risk",
+          "geoUnitType": "Country",
+          "geoUnit": {
+            "identifierType": "ISO3",
+            "identifierCode": "GBR"
+          },
+          "startDate": "2007-12-07T00:00:00.000Z"
+        }
+      ]
+    },
+    "creditProfile": {
+      "rating": [
+        {
+          "groupName": "Derived Party Ratings",
+          "scheme": "Derived Party Policy",
+          "value": "NR",
+          "startDate": "2018-05-04T00:00:00.000Z"
+        },
+        {
+          "groupName": "Derived Party Ratings",
+          "scheme": "Basel II Issuer Rating",
+          "value": "NR",
+          "startDate": "2018-05-04T00:00:00.000Z",
+          "vendorIdentifier": {
+            "value": "MHI"
+          }
+        },
+        {
+          "groupName": "Derived Party Ratings",
+          "scheme": "Basel II Issuer Rating Standard",
+          "value": "NR",
+          "startDate": "2018-05-04T00:00:00.000Z",
+          "vendorIdentifier": {
+            "value": "MHI"
+          }
+        }
+      ]
+    },
+    "industryProfile": {
+      "classification": [
+        {
+          "scheme": "Industry Subgroup",
+          "value": "Inactive/Unknown",
+          "startDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "scheme": "BOE Classification - Parties",
+          "value": "4323800730",
+          "startDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "scheme": "Financial Institutions",
+          "value": "Other Financial Institutions",
+          "startDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "scheme": "Industry Sector",
+          "value": "Consumer, Non-cyclical",
+          "startDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "scheme": "Industry Group",
+          "value": "Commercial Services",
+          "startDate": "2020-06-11T00:00:00.000Z"
+        },
+        {
+          "scheme": "Derived GICS",
+          "value": "402030",
+          "startDate": "2018-08-09T00:00:00.000Z"
+        },
+        {
+          "scheme": "RISKWGHT",
+          "value": "N",
+          "startDate": "2019-07-25T00:00:00.000Z"
+        },
+        {
+          "scheme": "CQSRANKG",
+          "value": "NR",
+          "startDate": "2018-10-06T00:00:00.000Z"
+        }
+      ]
+    },
+    "asOf": "2022-02-06T22:23:03.684Z",
+    "validation": [
+      {
+        "#value": "3",
+        "_validationScheme": "mhi:hash-value"
+      }
+    ]
+  }
+]

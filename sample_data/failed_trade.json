@@ -1,0 +1,177 @@
+[
+  {
+    "header": {
+      "sentBy": {
+        "#value": "Gloss"
+      },
+      "creationTimestamp": "2024-01-31T22:10:45.912Z"
+    },
+    "m:asOfDate": {
+      "#value": "2024-01-31T00:00:00.000Z"
+    },
+    "m:fail": {
+      "m:partyTradeIdentifier": {
+        "tradeId": [
+          {
+            "#value": "42163757",
+            "_tradeIdScheme": "MUREX",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "XS1976",
+            "_tradeIdScheme": "ANVIL",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "E02213800BUOJT8E71MBB36EQ003TT000002552894799",
+            "_tradeIdScheme": "UTI",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "E02213800BUOJT8E71MBB36EQ003TT000002552894799",
+            "_tradeIdScheme": "CPTY_UTI",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "84768792",
+            "_tradeIdScheme": "GLOSS_SUMMARY",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000030744954Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000030913782Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000030980439Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000030980440Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000032048665Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "0000032048666Q1",
+            "_tradeIdScheme": "GLOSS_SWIFT",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "00000000000030913782",
+            "_tradeIdScheme": "mhi:GLOSS",
+            "_xsi:type": "TradeId"
+          },
+          {
+            "#value": "",
+            "_tradeIdScheme": "gloss:netted-trade-id",
+            "_xsi:type": "TradeId"
+          }
+        ]
+      },
+      "m:productType": [
+        {
+          "#value": "BLCM",
+          "_productTypeScheme": "mizuho:gloss-trade-type"
+        }
+      ],
+      "m:tradeLeg": "Far",
+      "m:tradeDate": {
+        "#value": "2022-03-07T00:00:00.000Z"
+      },
+      "m:tradeState": "Split",
+      "m:operation": {
+        "#value": "DEL"
+      },
+      "m:expectedSettlementDate": "2022-03-08T00:00:00.000Z",
+      "m:failReason": [
+        {
+          "m:sequenceNo": 0,
+          "m:type": "StockInstructionReason",
+          "m:appliesTo": "Stock",
+          "m:reason": "SETT/PENF LACK - USEC"
+        },
+        {
+          "m:sequenceNo": 0,
+          "m:type": "DiaryReason",
+          "m:appliesTo": "Stock",
+          "m:reason": "Insufficient Securities in Account"
+        }
+      ],
+      "m:stock": {
+        "m:instrumentId": [
+          {
+            "#value": "100001392639",
+            "_instrumentIdScheme": "mhi:listing-id"
+          }
+        ],
+        "m:expectedSettlementAmount": 200000,
+        "m:settledAmount": 199792,
+        "m:failedAmount": 208,
+        "m:settlementStatus": "Partial"
+      },
+      "m:cash": {
+        "m:currency": "USD",
+        "m:expectedSettlementAmount": 0,
+        "m:settledAmount": 0,
+        "m:failedAmount": 0,
+        "m:settlementStatus": "Failed"
+      }
+    },
+    "party": [
+      {
+        "partyName": {
+          "#value": "CSCRESFBB"
+        },
+        "_id": "COUNTERPARTY"
+      },
+      {
+        "partyId": [
+          {
+            "#value": "MHI",
+            "_partyIdScheme": "mizuho:organisation-id"
+          }
+        ],
+        "_id": "HOUSE"
+      }
+    ],
+    "account": [
+      {
+        "accountName": {
+          "#value": "REPO FFCLN"
+        },
+        "_id": "PORTFOLIO"
+      },
+      {
+        "accountName": {
+          "#value": ""
+        },
+        "_id": "NOSTRO"
+      },
+      {
+        "accountName": {
+          "#value": "EUROCLEAR A/C 96499"
+        },
+        "accountType": {
+          "#value": "Depo"
+        },
+        "_id": "DEPO"
+      }
+    ],
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_xsi:schemaLocation": "http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd",
+    "_fpmlVersion": "5-6",
+    "_xmlns:m": "urn:com.mizuho.bdm",
+    "_xmlns": "http://www.fpml.org/FpML-5/reporting"
+  }
+]
