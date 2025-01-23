@@ -1,0 +1,715 @@
+<?xml version="1.0"?>
+<MxML version="1-1">
+	<documentProperties>
+		<producedBy>
+			<partyName>Mizuho Int PLC</partyName>
+			<user>
+				<name>MUREXINT</name>
+				<group>FO_TECH</group>
+				<desk>FOD</desk>
+				<code />
+			</user>
+		</producedBy>
+		<systemDate>20150218</systemDate>
+		<accountingDate>00000000</accountingDate>
+		<computerDate>20150227</computerDate>
+		<computerTime>15:11:20</computerTime>
+	</documentProperties>
+	<events>
+		<mainEvent>
+			<action>insertion</action>
+			<object href="#contract_3358">
+				<objectNature>contract</objectNature>
+				<objectId>3358</objectId>
+			</object>
+			<inputBy>
+				<userName>MUREXFO</userName>
+				<group>FO</group>
+				<desk>FOD</desk>
+				<code />
+			</inputBy>
+		</mainEvent>
+	</events>
+	<contracts>
+		<contract id="contract_3358" mefClass="mxContractISINGLE"
+			mefClassInstanceType="77.000000">
+			<businessObjectId mefClass="mxContractISINGLE"
+				mefClassInstanceType="77">
+				<identifier>3358</identifier>
+				<baseIdentifier>3358</baseIdentifier>
+				<versionIdentifier>
+					<versionRevision>
+						<versionNumber>1</versionNumber>
+						<versionDateAndTime>
+							<date>00000000</date>
+						</versionDateAndTime>
+					</versionRevision>
+				</versionIdentifier>
+				<primarySystem>MX</primarySystem>
+			</businessObjectId>
+			<contractId>
+				<internalId>3358</internalId>
+				<rootContract>3358</rootContract>
+			</contractId>
+			<contractBusinessObjectTemplate>
+				<businessObjectId>
+					<identifier>0</identifier>
+					<displayLabel />
+				</businessObjectId>
+			</contractBusinessObjectTemplate>
+			<contractHeader>
+				<contractCategory>
+					<typology>Spot</typology>
+					<mainTypologyPath>/Typologies/FX/Spot</mainTypologyPath>
+					<usage />
+					<onshoreOffshore>NONE</onshoreOffshore>
+					<collateralAgreementCategory />
+				</contractCategory>
+				<contractAgreements>
+					<settlementMethod />
+				</contractAgreements>
+				<contractSource>
+					<sourceModule>mx</sourceModule>
+					<originPublishingSystem>MX</originPublishingSystem>
+					<publishingSystem>MX</publishingSystem>
+					<packageReference mefClass="" />
+					<contractEventReference mefClass="">
+						<contractEventId>
+							<internalId>0</internalId>
+						</contractEventId>
+					</contractEventReference>
+					<contractCreatorReference mefClass="" />
+					<contractOriginReference mefClass="mxContractISINGLE">
+						<businessObjectId mefClass="mxContractISINGLE"
+							mefClassInstanceType="77">
+							<identifier>3358</identifier>
+							<primarySystem>MX</primarySystem>
+						</businessObjectId>
+						<contractId>
+							<internalId>3358</internalId>
+							<rootContract>3358</rootContract>
+						</contractId>
+					</contractOriginReference>
+					<version>1</version>
+					<lastContractEventReference mefClass="">
+						<contractEventId>
+							<internalId>0</internalId>
+						</contractEventId>
+					</lastContractEventReference>
+					<lastContractEventAction>INSERT</lastContractEventAction>
+					<originContractEventReference
+						mefClass="">
+						<contractEventId>
+							<internalId>0</internalId>
+						</contractEventId>
+					</originContractEventReference>
+					<originDate>20150218</originDate>
+					<workflowParties>
+						<wopInitiator>
+							<role />
+							<name>MUREXINT</name>
+							<group>FO_TECH</group>
+						</wopInitiator>
+						<wopLastActor>
+							<role />
+							<name>MUREXINT</name>
+							<group>FO_TECH</group>
+						</wopLastActor>
+						<wopInternalTrader>
+							<name />
+							<group />
+						</wopInternalTrader>
+						<wopInternalPortfolio>
+							<wopIsBackToBack>N</wopIsBackToBack>
+						</wopInternalPortfolio>
+						<wopParties />
+					</workflowParties>
+				</contractSource>
+			</contractHeader>
+			<inputConditions>
+				<inputBy />
+				<areaCode>0</areaCode>
+				<timestamp>20150227 15:11:16:970</timestamp>
+				<modified>false</modified>
+			</inputConditions>
+			<contractComponents>
+				<contractComponent>
+					<typologyId>0</typologyId>
+					<tradeReference href="#trade_3831" />
+				</contractComponent>
+			</contractComponents>
+		</contract>
+	</contracts>
+	<trades>
+		<trade id="trade_3831" mefClass="mxContractITRADE"
+			mefClassInstanceType="77.000000">
+			<businessObjectId mefClass="mxContractITRADE"
+				mefClassInstanceType="77">
+				<identifier>3831</identifier>
+				<baseIdentifier>3831</baseIdentifier>
+				<versionIdentifier>
+					<versionRevision>
+						<versionNumber>1</versionNumber>
+						<versionDateAndTime>
+							<date>00000000</date>
+						</versionDateAndTime>
+					</versionRevision>
+				</versionIdentifier>
+				<primarySystem>MX</primarySystem>
+			</businessObjectId>
+			<parties>
+				<party id="Mizuho_Int_PLC">
+					<partyName>Mizuho Int PLC</partyName>
+					<partyFullName>Mizuho Int PLC</partyFullName>
+					<partyCode>Mizuho Int PLC22</partyCode>
+				</party>
+				<party id="_3897">
+					<partyName>BARC LON</partyName>
+				</party>
+			</parties>
+			<portfolios>
+				<portfolio id="GOVT_LONG">
+					<portfolioLabel>GOVT LONG</portfolioLabel>
+				</portfolio>
+			</portfolios>
+			<tradeHeader>
+				<MHI_Taxonomy>
+					<id>1403</id>
+				</MHI_Taxonomy>
+				<tradeDate>20150218</tradeDate>
+				<tradeCategory>
+					<tradeDestination>external</tradeDestination>
+					<tradeFamily>CURR</tradeFamily>
+					<tradeGroup>FXD</tradeGroup>
+					<tradeType>FXD</tradeType>
+					<typology>Spot</typology>
+					<mainTypologyPath>/Typologies/FX/Spot</mainTypologyPath>
+					<usage />
+					<collateralAgreementCategory />
+				</tradeCategory>
+				<tradeSource>
+					<tradeOriginId>3831</tradeOriginId>
+					<replacementDate>20150218</replacementDate>
+					<originPublishingSystemID>3831</originPublishingSystemID>
+				</tradeSource>
+				<tradeViews>
+					<tradeView>
+						<partyReference href="#Mizuho_Int_PLC">
+							<portfolioReference href="#GOVT_LONG" />
+						</partyReference>
+						<userName>MUREXINT</userName>
+						<accountingSection>FVTPL</accountingSection>
+						<entity>MSUKH</entity>
+						<legalEntity>MHI</legalEntity>
+						<tradeId>
+							<tradeInternalId>3831</tradeInternalId>
+							<tradeGlobalId>BBG:11030505</tradeGlobalId>
+							<hostingSystem>MX</hostingSystem>
+							<publishingSystemID>3831</publishingSystemID>
+						</tradeId>
+					</tradeView>
+					<tradeView>
+						<partyReference href="#_3897" />
+						<entity>MSUKH</entity>
+					</tradeView>
+				</tradeViews>
+				<tradeUserDefinedFields>
+					<userDefinedField>
+						<fieldLabel>O_PRICE</fieldLabel>
+						<fieldIndex>0</fieldIndex>
+						<fieldValue>1.456</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>ADDR_TYPE</fieldLabel>
+						<fieldIndex>0</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BOFOUREYE</fieldLabel>
+						<fieldIndex>1</fieldIndex>
+						<fieldValue>N</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BO_VAL</fieldLabel>
+						<fieldIndex>2</fieldIndex>
+						<fieldValue>Automatic</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BRKUNMATD</fieldLabel>
+						<fieldIndex>3</fieldIndex>
+						<fieldValue>999</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BRK_AGR</fieldLabel>
+						<fieldIndex>4</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BRK_DOC</fieldLabel>
+						<fieldIndex>5</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BRK_MAT</fieldLabel>
+						<fieldIndex>6</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>BRK_SCEN</fieldLabel>
+						<fieldIndex>7</fieldIndex>
+						<fieldValue>No Chasing</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CONFORDER</fieldLabel>
+						<fieldIndex>9</fieldIndex>
+						<fieldValue>No order</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CONF_VAL</fieldLabel>
+						<fieldIndex>16</fieldIndex>
+						<fieldValue>Automatic</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CONF_VAL_B</fieldLabel>
+						<fieldIndex>17</fieldIndex>
+						<fieldValue>Automatic</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CTPUNMATD</fieldLabel>
+						<fieldIndex>18</fieldIndex>
+						<fieldValue>999</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CTP_MAT</fieldLabel>
+						<fieldIndex>19</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>CTP_SCEN</fieldLabel>
+						<fieldIndex>20</fieldIndex>
+						<fieldValue>No Chasing</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>DIST_DESC</fieldLabel>
+						<fieldIndex>21</fieldIndex>
+						<fieldValue>Buy 1,568,040 USD against GBP on 20 feb 2015 (spot) @
+							0.6377</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>DIST_TTL</fieldLabel>
+						<fieldIndex>23</fieldIndex>
+						<fieldValue>0</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>DOC_TYPE</fieldLabel>
+						<fieldIndex>26</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>EXT_IMPACT</fieldLabel>
+						<fieldIndex>29</fieldIndex>
+						<fieldValue>EXTERNAL</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>FOFOUREYE</fieldLabel>
+						<fieldIndex>30</fieldIndex>
+						<fieldValue>N</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>FO_TIMER</fieldLabel>
+						<fieldIndex>31</fieldIndex>
+						<fieldValue>0</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>FO_VAL</fieldLabel>
+						<fieldIndex>32</fieldIndex>
+						<fieldValue>Automatic</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>HEDGE_PRC</fieldLabel>
+						<fieldIndex>36</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>LCL_MARGIN</fieldLabel>
+						<fieldIndex>38</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>LEV_INFO</fieldLabel>
+						<fieldIndex>39</fieldIndex>
+						<fieldValue>2</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>MARGN_AMNT</fieldLabel>
+						<fieldIndex>40</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>MARGN_RATE</fieldLabel>
+						<fieldIndex>41</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>MASTER_AGR</fieldLabel>
+						<fieldIndex>42</fieldIndex>
+						<fieldValue>NONE</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>MRG_VAL</fieldLabel>
+						<fieldIndex>45</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>O_PRICE</fieldLabel>
+						<fieldIndex>48</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>O_PRICE1</fieldLabel>
+						<fieldIndex>49</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>O_PRICE2</fieldLabel>
+						<fieldIndex>50</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>O_TMPLT</fieldLabel>
+						<fieldIndex>51</fieldIndex>
+						<fieldValue>Market</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>STRATEGYID</fieldLabel>
+						<fieldIndex>56</fieldIndex>
+						<fieldValue>0</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>TIMESTAMP</fieldLabel>
+						<fieldIndex>57</fieldIndex>
+						<fieldValue>20150226 16:09:06</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>TRADER</fieldLabel>
+						<fieldIndex>58</fieldIndex>
+						<fieldValue>ZBUKHARI4</fieldValue>
+						<fieldType>character</fieldType>
+					</userDefinedField>
+					<userDefinedField>
+						<fieldLabel>VAAMT</fieldLabel>
+						<fieldIndex>59</fieldIndex>
+						<fieldValue>0.</fieldValue>
+						<fieldType>numeric</fieldType>
+					</userDefinedField>
+				</tradeUserDefinedFields>
+				<tradeFees/>
+				<tradeAgreements>
+					<paymentNetting>false</paymentNetting>
+				</tradeAgreements>
+				<contractReference mefClass="mxContractISINGLE">
+					<businessObjectId mefClass="mxContractISINGLE"
+						mefClassInstanceType="77">
+						<identifier>3358</identifier>
+						<primarySystem>MX</primarySystem>
+					</businessObjectId>
+					<contractId>
+						<internalId>3358</internalId>
+						<rootContract>3358</rootContract>
+					</contractId>
+				</contractReference>
+				<tradeProcessing>
+					<nonUnwoundRatio>1.</nonUnwoundRatio>
+					<remainingLiveQuantity>999999.99999525</remainingLiveQuantity>
+				</tradeProcessing>
+				<tradeAccountingInfo>
+					<tradeHedging>
+						<hedgedTransactionSold>false</hedgedTransactionSold>
+					</tradeHedging>
+				</tradeAccountingInfo>
+			</tradeHeader>
+			<tradeBody>
+				<fxSpotForward>
+					<currency1Flow>
+						<payerPartyReference href="#_3897" />
+						<receiverPartyReference href="#Mizuho_Int_PLC">
+							<portfolioReference href="#GOVT_LONG" />
+						</receiverPartyReference>
+						<date>20150220</date>
+						<currency>USD</currency>
+						<amount>1568040</amount>
+					</currency1Flow>
+					<currency2Flow>
+						<payerPartyReference href="#Mizuho_Int_PLC">
+							<portfolioReference href="#GOVT_LONG" />
+						</payerPartyReference>
+						<receiverPartyReference href="#_3897" />
+						<date>20150220</date>
+						<currency>GBP</currency>
+						<amount>999999.99999525</amount>
+					</currency2Flow>
+					<exchangeRate>
+						<fxQuotation>
+							<currency1>GBP</currency1>
+							<currency2>USD</currency2>
+							<fxQuoteBasis>currency1PerCurrency2</fxQuoteBasis>
+							<formFactor>1</formFactor>
+						</fxQuotation>
+						<rate>0.63773883319</rate>
+					</exchangeRate>
+					<forwardDelivery>spot</forwardDelivery>
+					<spotDate>20150220</spotDate>
+					<fxSpot>
+						<fxQuotation>
+							<currency1>GBP</currency1>
+							<currency2>USD</currency2>
+							<fxQuoteBasis>currency1PerCurrency2</fxQuoteBasis>
+							<formFactor>1</formFactor>
+						</fxQuotation>
+						<rate>0.63773883319</rate>
+					</fxSpot>
+					<fxQuantitiesInputMode>oneQuantity</fxQuantitiesInputMode>
+					<riskSection>GBP/USD</riskSection>
+				</fxSpotForward>
+			</tradeBody>
+			<settlementInstructions />
+			<tradeInputConditions>
+				<inputBy>
+					<userName>MUREXINT</userName>
+				</inputBy>
+				<systemDate>20150227</systemDate>
+				<computerDate>20150218</computerDate>
+				<validityDate>20150218</validityDate>
+				<computerTime>16:09:06</computerTime>
+				<areaCode>0</areaCode>
+				<lateTrading>earlyTrading</lateTrading>
+				<timestamp>20150227 15:11:16:970</timestamp>
+				<modified>false</modified>
+				<initialData />
+			</tradeInputConditions>
+			<tradeStatus>
+				<physicalStatus>live</physicalStatus>
+			</tradeStatus>
+			<tradeVersions>
+				<tradeVersion>
+					<businessObjectId>
+						<identifier>3831</identifier>
+						<baseIdentifier>3831</baseIdentifier>
+						<versionIdentifier>
+							<versionRevision>
+								<versionNumber>1</versionNumber>
+								<versionDateAndTime>
+									<date>00000000</date>
+								</versionDateAndTime>
+							</versionRevision>
+						</versionIdentifier>
+						<primarySystem>MX</primarySystem>
+					</businessObjectId>
+					<contractEventReference mefClass="">
+						<contractEventId>
+							<internalId>0</internalId>
+						</contractEventId>
+					</contractEventReference>
+					<eventVersion>0</eventVersion>
+					<contractEventOriginReference
+						mefClass="">
+						<contractEventId>
+							<internalId>0</internalId>
+							<businessObjectId>
+								<versionIdentifier>
+									<versionRevision>
+										<versionNumber>1</versionNumber>
+										<versionDateAndTime>
+											<date>00000000</date>
+										</versionDateAndTime>
+									</versionRevision>
+								</versionIdentifier>
+								<primarySystem>MX</primarySystem>
+							</businessObjectId>
+						</contractEventId>
+					</contractEventOriginReference>
+					<action>INSERT</action>
+					<date>20150218</date>
+					<validityDate>20150218</validityDate>
+					<timestamp>2015/02/27 15:11:16.970</timestamp>
+					<lateTrading>N</lateTrading>
+					<tradePurpose>MfBJy44236</tradePurpose>
+					<tradePurposeDisplayedLabel>Contract</tradePurposeDisplayedLabel>
+					<tradePurposeId>0</tradePurposeId>
+					<stpStatuses>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS_VALIDATION_LEVEL</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS1</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS2</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS3</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+						<stpStatus>
+							<stpStatusKey>STP_STATUS4</stpStatusKey>
+							<stpStatusValue />
+						</stpStatus>
+					</stpStatuses>
+					<isActive>true</isActive>
+				</tradeVersion>
+			</tradeVersions>
+			<evaluationFlows />
+			<deletedFlows />
+		</trade>
+	</trades>
+	<dealings>
+		<dealing>
+			<remoteEdition>
+				<businessObject mefClass="mxContractISINGLE"
+					mefClassId="1.238" mefClassInstanceType="77" mefClassInstanceLabel="Spot-Forward"
+					pattern="" patternId="0" href="#contract_3358">
+					<flatObject>
+						<memberValuePairs>
+							<member path="Bid/Ask">Mid</member>
+							<member path="One side">N</member>
+							<member path="Price on request">N</member>
+							<member path="Flat member based">Yes</member>
+							<member path="Title based">Yes</member>
+							<member path="Typology id based">Yes</member>
+							<member path="Trading date">20150218</member>
+							<member path="Evaluation date">20150218</member>
+							<member path="Sliding trading date">Y</member>
+							<member path="Typology label">Spot</member>
+							<member path="RFQ group" />
+						</memberValuePairs>
+					</flatObject>
+				</businessObject>
+				<modifiedMembers>
+					<memberValuePairs>
+						<member path="Type" source="0">#1 Spot-Fwd</member>
+						<member path="Instrument" source="0">GBP/USD</member>
+						<member path="Price quotation" source="0">USD-GBP</member>
+						<member path="Den Buy/Sell" source="0">Buy</member>
+						<member path="Den nominal" source="0">1568040.</member>
+						<member path="Den unit" source="0">USD</member>
+						<member path="Num Buy/Sell" source="0">Sell</member>
+						<member path="Num nominal" source="0">999999.999995247577
+						</member>
+						<member path="Num unit" source="0">GBP</member>
+						<member path="Maturity period" source="0" />
+						<member path="Maturity" source="0">20150220</member>
+						<member path="Ref spot" source="0">0.63773883319</member>
+						<member path="Spot sales margin pips" source="0">0.</member>
+						<member path="Net spot" source="0">0.63773883319</member>
+						<member path="Swap points" source="0">0.</member>
+						<member path="Swap sales margin" source="0">0.</member>
+						<member path="Net swap points" source="0">0.</member>
+						<member path="Forward" source="0">0.63773883319</member>
+						<member path="Sales margin pips" source="0">0.</member>
+						<member path="Net Forward" source="0">0.63773883319</member>
+						<member path="Sales margin amt" source="0">0.</member>
+						<member path="Sales margin ccy" source="0">GBP</member>
+						<member path="Callable" source="0">No</member>
+						<member path="Callable window" source="0" />
+						<member path="Callable holder" source="0">I exercise</member>
+						<member path="Non deliverable" source="0">No</member>
+						<member path="Asian ndf mode" source="0">No</member>
+						<member path="Asian ndf start fixing date" source="0">00000000
+						</member>
+						<member path="Asian ndf schedule" source="0" />
+						<member path="Ndf fixing date" source="0">00000000</member>
+						<member path="Settlement price" source="0">0.</member>
+						<member path="Settlement currency" source="0" />
+						<member path="Asian ndf dates" source="0">
+							<businessObject />
+						</member>
+						<member path="Archiving group" source="0" />
+						<member path="Archiving column" source="0" />
+						<member path="Ndf fixing splitting currency mode" source="0">No
+						</member>
+						<member path="Ndf fixing splitting currency" source="0" />
+						<member path="Ndf fixing primary contract" source="0" />
+						<member path="Prm Ndf fixing date" source="0">00000000</member>
+						<member path="Pri settlement price" source="0">0.</member>
+						<member path="Pri archiving group" source="0" />
+						<member path="Pri archiving column" source="0" />
+						<member path="Ndf fixing secondary contract" source="0" />
+						<member path="Sec Ndf fixing date" source="0">00000000</member>
+						<member path="Sec settlement price" source="0">0.</member>
+						<member path="Sec archiving group" source="0" />
+						<member path="Sec archiving column" source="0" />
+						<member path="Second delivery" source="0">No</member>
+						<member path="Second del currency" source="0" />
+						<member path="Second del date" source="0">00000000</member>
+						<member path="Fixing" source="0">No Fix</member>
+						<member path="Asian fixing mode" source="0">No</member>
+						<member path="Asian fixing start fixing date" source="0">00000000
+						</member>
+						<member path="Asian fixing schedule" source="0" />
+						<member path="Fixing date" source="0">00000000</member>
+						<member path="Asian fixing dates" source="0">
+							<businessObject />
+						</member>
+						<member path="Prorata" source="0">No</member>
+						<member path="Broker" source="0" />
+						<member path="Settlement method" source="0" />
+						<member path="Internal" source="0">No</member>
+						<member path="Counterpart" source="0">BARC LON</member>
+						<member path="Portfolio" source="0">GOVT LONG</member>
+						<member path="&apos;Collat. agreement categ&apos;" source="0" />
+						<member path="Back to back" source="0">No</member>
+						<member path="Back to back portfolio" source="0" />
+						<member path="View" source="0" />
+						<member path="Cnt Number" source="0">3358.</member>
+						<member path="Trading Date" source="0">20150218</member>
+						<member path="Origin Reference" source="0">3358.</member>
+					</memberValuePairs>
+				</modifiedMembers>
+			</remoteEdition>
+			<dealingCode />
+			<dealingId />
+		</dealing>
+	</dealings>
+</MxML>
