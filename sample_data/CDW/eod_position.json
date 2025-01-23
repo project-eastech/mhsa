@@ -1,0 +1,461 @@
+[
+  {
+    "validation": [
+      {
+        "_validationScheme": "mhi:hash-value",
+        "#value": "52eb6f2b9cb342ac9c6ad10d86bb683e"
+      }
+    ],
+    "onBehalfOf": [
+      {
+        "partyReference": {
+          "_href": "HOUSE"
+        }
+      }
+    ],
+    "asOfDate": {
+      "#value": "2024-01-31T00:00:00.000Z"
+    },
+    "dataSetName": "Murex Cash Positions",
+    "quotationCharacteristics": {
+      "currency": {
+        "#value": "PLACEHOLDER"
+      },
+      "currencyType": {
+        "#value": "SettlementCurrency"
+      }
+    },
+    "position": [
+      {
+        "_xsi:type": "m:ReportedPosition",
+        "reportingRoles": {
+          "baseAccount": {
+            "_href": "1SST_MA"
+          }
+        },
+        "constituent": {
+          "holding": {
+            "_xsi:type": "m:Holding",
+            "bond": {
+              "instrumentId": [
+                {
+                  "_instrumentIdScheme": "mhi:TICKER",
+                  "#value": "PRELOT"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:BBUNIQUE",
+                  "#value": "COBL2473108"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:WSOLXIDN",
+                  "#value": "LX166130"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:BBGLOBAL",
+                  "#value": "BBG00H2F5LW9"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:BB8CHR",
+                  "#value": "BL247310"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:listing-id",
+                  "#value": "100002196425"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:security-id",
+                  "#value": "100002196424"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:BBCMPSEC",
+                  "#value": "42049620-103788989"
+                },
+                {
+                  "_instrumentIdScheme": "mhi:SECREF",
+                  "#value": "PRELOTFRN24"
+                }
+              ],
+              "currency": {
+                "#value": "EUR"
+              },
+              "dayCountFraction": {
+                "#value": "ACT/360"
+              }
+            },
+            "quantity": {
+              "number": 1
+            },
+            "primaryAssetClass": {
+              "_assetClassScheme": "mhi:taxonomy-product-group",
+              "#value": "Cash"
+            },
+            "secondaryAssetClass": [
+              {
+                "_assetClassScheme": "mhi:taxonomy-asset-class",
+                "#value": "Credit"
+              }
+            ],
+            "productType": [
+              {
+                "_productTypeScheme": "mhi:product-type",
+                "#value": "Cash:Credit:Loan:Term"
+              },
+              {
+                "_productTypeScheme": "mhi:taxonomy-product",
+                "#value": "Loan"
+              },
+              {
+                "_productTypeScheme": "mhi:taxonomy-sub-product",
+                "#value": "Term"
+              },
+              {
+                "_productTypeScheme": "mhi:taxonomy-alias",
+                "#value": "Term Loan"
+              },
+              {
+                "_productTypeScheme": "Murex:product-group",
+                "#value": "BOND"
+              },
+              {
+                "_productTypeScheme": "Murex:product-family",
+                "#value": "IRD"
+              },
+              {
+                "_productTypeScheme": "Murex:product-typology",
+                "#value": "Traded Loan"
+              }
+            ],
+            "productId": [
+              {
+                "_productIdScheme": "mhi:taxonomy-ref",
+                "#value": "1203"
+              },
+              {
+                "_productIdScheme": "Murex:product-typology-id",
+                "#value": "1482"
+              },
+              {
+                "_productIdScheme": "Murex:trade-typology-id",
+                "#value": "1482"
+              }
+            ],
+            "m:system": {
+              "m:systemId": {
+                "#value": "MUREX3"
+              }
+            }
+          }
+        },
+        "valuation": [
+          {
+            "quote": [
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "TradeDateMarketValue"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "ValueDateMarketValue"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "TradeDatePositionAmount"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "ValueDatePositionAmount"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 99.875,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "MarketPrice"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "AccruedInterest"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "TotalAccruedInterest"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 13527.08,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "RealisedPnL"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 13527.08,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "VariationMargin"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "UnrealisedPnL"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "TotalFees"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "ModDuration"
+                }
+              },
+              {
+                "value": 18794.73,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "BoughtCoupon"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "PastCoupon"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "DailyAccrued"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 12043,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "BondPL"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 13527,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "CleanBondPL"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              },
+              {
+                "value": 0.035,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "CurrentRate"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "DaysSinceLastCoupon"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "AccrualDate"
+                },
+                "valuationDate": "2024-01-31T00:00:00.000Z"
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "UnsettledStockQuantityRemaining"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "AverageAccountingPrice"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "UnderlyingModifiedDuration"
+                }
+              },
+              {
+                "value": 3119686,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "PositionId"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "DrawnNominal"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "UndrawnNominal"
+                }
+              },
+              {
+                "value": 100,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "PercentageAmortized"
+                }
+              },
+              {
+                "value": 94.5,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "LastTradedPrice"
+                }
+              },
+              {
+                "value": 64128.69,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "CommitmentAtTradeDate"
+                }
+              },
+              {
+                "value": 0,
+                "measureType": {
+                  "_assetMeasureScheme": "mizuho:asset-measure",
+                  "#value": "UnderlyingMarketPrice"
+                },
+                "currency": {
+                  "#value": "EUR"
+                }
+              }
+            ]
+          }
+        ],
+        "m:accountingClassification": [
+          {
+            "_accountingClassificationScheme": "mhi:accounting-classification",
+            "#value": "FVTPL"
+          }
+        ]
+      }
+    ],
+    "party": [
+      {
+        "_id": "HOUSE",
+        "partyId": [
+          {
+            "_partyIdScheme": "mizuho:organisation-id",
+            "#value": "MHI"
+          }
+        ]
+      }
+    ],
+    "account": [
+      {
+        "_id": "1SST_MA",
+        "accountId": [
+          {
+            "_accountIdScheme": "mhi:book-ref",
+            "#value": "1SST"
+          },
+          {
+            "_accountIdScheme": "mhi:book-type",
+            "#value": "MA"
+          }
+        ],
+        "accountName": {
+          "#value": "1SST MA"
+        }
+      }
+    ],
+    "_xmlns": "http://www.fpml.org/FpML-5/reporting",
+    "_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "_fpmlVersion": "5-6",
+    "_xmlns:m": "urn:com.mizuho.bdm",
+    "_xmlns:mhi": "urn:com.mizuho.bdm.mhi",
+    "_xsi:schemaLocation": "urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd"
+  }
+]
