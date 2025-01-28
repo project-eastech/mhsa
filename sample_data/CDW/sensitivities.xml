@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="cmfSensitivities">
+    <cmfSensitivities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/9.0.0/com/mizuho/bdm/cmf/cmfSensitivities.xsd">
+      <organisationId>MHI</organisationId>
+      <tradeIdentifier>
+        <tradeId tradeIdScheme="mhi:MUREX">34130861</tradeId>
+        <tradeId tradeIdScheme="mhi:UTI">K9ZGANUZ9CIR00000000000034130861</tradeId>
+        <tradeId tradeIdScheme="mhi:trade-id">5e44f451e7f9d8b95596915d</tradeId>
+        <tradeId tradeIdScheme="mhi:FRONT_ARENA">25480L2</tradeId>
+      </tradeIdentifier>
+      <sensitivities businessDate="2025-01-10" dayPartName="EOD" publicationDate="2025-01-10T16:16:17.000Z">
+        <sensitivity type="Delta">0</sensitivity>
+        <sensitivity type="Gamma">0</sensitivity>
+        <sensitivity type="Vega">0</sensitivity>
+        <sensitivity type="Rho">0</sensitivity>
+        <sensitivity type="ImpliedStrikePrice">99.886233</sensitivity>
+        <sensitivity type="ImpliedVolatility">20</sensitivity>
+      </sensitivities>
+    </cmfSensitivities>
+  </list>

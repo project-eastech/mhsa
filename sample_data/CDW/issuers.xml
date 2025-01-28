@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="cmfParty">
+    <cmfParty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/13.4.0/com/mizuho/bdm/cmf/cmfParty.xsd">
+      <vendor>goldenSource</vendor>
+      <issuerName>WhiteStar Asset Management LLC</issuerName>
+      <status>ACTIVE</status>
+      <lastUpdatedTime>2018-07-30T22:33:02.000Z</lastUpdatedTime>
+      <partyLastUpdated>2025-01-07T00:15:04.000Z</partyLastUpdated>
+      <riskUltimateParent>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>CLEARLKC</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>14075184</id>
+        </identifier>
+        <identifier>
+          <type>Group Id</type>
+          <id>14075184 G</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>549300KS80DRM1PH2X89</id>
+        </identifier>
+        <ultimateParentName>Clearlake Capital Group LP</ultimateParentName>
+        <ultimateParentCntryOfDomicile>US</ultimateParentCntryOfDomicile>
+        <ultimateParentCntryOfIncorporation>US</ultimateParentCntryOfIncorporation>
+        <ultimateParentCntryOfRisk>US</ultimateParentCntryOfRisk>
+      </riskUltimateParent>
+      <immediateParent>
+        <name>Clearlake Capital Group LP</name>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>CLEARLKC</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>14075184</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>549300KS80DRM1PH2X89</id>
+        </identifier>
+      </immediateParent>
+      <identifiers>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>61333728</id>
+        </identifier>
+        <identifier>
+          <type>Client Reference</type>
+          <id>WHITESTR</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>254900DI5HCXBPTLM867</id>
+        </identifier>
+        <identifier>
+          <type>Fenergo LegalEntity Id</type>
+          <id>18705</id>
+        </identifier>
+        <identifier>
+          <type>BBG Company Name</type>
+          <id>WhiteStar Asset Management LLC</id>
+        </identifier>
+      </identifiers>
+      <geographicProfile>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>US</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>USA</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>US</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>USA</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>US</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>USA</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+      </geographicProfile>
+      <creditProfile>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>MHI Internal Party</scheme>
+          <value>BB</value>
+          <startDate>2022-01-19</startDate>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Derived Party Policy</scheme>
+          <value>BB</value>
+          <startDate>2022-01-19</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating</scheme>
+          <value>NR</value>
+          <startDate>2022-01-17</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating Standard</scheme>
+          <value>NR</value>
+          <startDate>2022-01-17</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+      </creditProfile>
+      <industryProfile>
+        <classification>
+          <scheme>RISKWGHT</scheme>
+          <value>N</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>CQSRANKG</scheme>
+          <value>NR</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>Derived GICS</scheme>
+          <value>402010</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>GICS Level</scheme>
+          <value>3</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>BOE Classification - Parties</scheme>
+          <value>4323800730</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>Financial Institutions</scheme>
+          <value>Other Financial Institutions</value>
+          <startDate>2022-01-17</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Group</scheme>
+          <value>Diversified Finan Serv</value>
+          <startDate>2020-06-24</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Subgroup</scheme>
+          <value>Invest Mgmnt/Advis Serv</value>
+          <startDate>2020-06-24</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Sector</scheme>
+          <value>Financial</value>
+          <startDate>2020-06-24</startDate>
+        </classification>
+      </industryProfile>
+      <group>
+        <name>MHI Inventory</name>
+        <purpose>MUREX</purpose>
+        <startDate>2022-01-17</startDate>
+        <description>MHI Inventory</description>
+      </group>
+      <address classification="RegisteredAddress">
+        <addressLine1>C/O The Corporation Trust Company</addressLine1>
+        <addressLine2>Corporation Trust Center</addressLine2>
+        <addressLine3>1209 Orange St</addressLine3>
+        <locality>Wilmington, US-DE 19801, US</locality>
+      </address>
+      <asOf>2025-01-07T00:16:37.306Z</asOf>
+      <validation validationScheme="mhi:hash-value">2</validation>
+    </cmfParty>
+  </list>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="m:failReport">
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-10T22:15:34.473Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-10</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId tradeIdScheme="MUREX" xsi:type="TradeId">54671290</tradeId>
+          <tradeId tradeIdScheme="ANVIL" xsi:type="TradeId">B649284</tradeId>
+          <tradeId tradeIdScheme="UTI" xsi:type="TradeId">5493001KJTIIGC8Y1R12BBG0000000000B66587236E0340433</tradeId>
+          <tradeId tradeIdScheme="CPTY_UTI" xsi:type="TradeId">5493001KJTIIGC8Y1R12BBG0000000000B66587236E0340433</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SUMMARY" xsi:type="TradeId">132670875</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048159263Q1</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000049811610Q1</tradeId>
+          <tradeId tradeIdScheme="mhi:GLOSS" xsi:type="TradeId">00000000000049811610</tradeId>
+          <tradeId tradeIdScheme="gloss:netted-trade-id" xsi:type="TradeId">
+          </tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeLeg>Far</m:tradeLeg>
+        <m:tradeDate>2024-09-24</m:tradeDate>
+        <m:operation>REC</m:operation>
+        <m:expectedSettlementDate>2024-12-12</m:expectedSettlementDate>
+        <m:failReason>
+          <m:sequenceNo>0</m:sequenceNo>
+          <m:type>StockInstructionReason</m:type>
+          <m:appliesTo>Stock</m:appliesTo>
+          <m:reason>SETT/PENF CLAC - CSEC</m:reason>
+        </m:failReason>
+        <m:failReason>
+          <m:sequenceNo>0</m:sequenceNo>
+          <m:type>DiaryReason</m:type>
+          <m:appliesTo>Stock</m:appliesTo>
+          <m:reason>Counterparty Insufficient Securities</m:reason>
+        </m:failReason>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002271841</m:instrumentId>
+          <m:expectedSettlementAmount>200000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>200000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>GBP</m:currency>
+          <m:expectedSettlementAmount>202864.62</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>202864.62</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIDI LON</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>REPO FFCLN</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EUROCLEAR A/C 96499</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EUROCLEAR A/C 96499</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+  </list>

@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="legalEntity">
+    <legalEntity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/14.5.0/com/mizuho/bdm/cmf/legalEntity.xsd">
+      <workflowState>ClientOnboardingPublication</workflowState>
+      <createdDateTime>2023-07-20T23:00:00.000Z</createdDateTime>
+      <lastUpdatedDateTime>2024-06-07T12:15:59.000Z</lastUpdatedDateTime>
+      <identifier name="legalEntityId">14850</identifier>
+      <identifier name="Fenergo:LegalEntityId">14850</identifier>
+      <identifier name="longName">BGC BROKERS L.P.</identifier>
+      <identifier name="companyRegistrationNumber">LP011453</identifier>
+      <identifier name="LEI">ZWNFQ48RUL8VJZ2AIC12</identifier>
+      <identifier name="shortName">BGC BROKERS - SGM</identifier>
+      <identifier name="BBCMPYID">28647863</identifier>
+      <identifier name="CLIENTREF">BGCBRKRS</identifier>
+      <identifier name="bloombergCompanyName">BGC Brokers LP</identifier>
+      <relatedLegalEntity relationship="Shareholder">
+        <identifier name="Fenergo:LegalEntityId">14696</identifier>
+        <identifier name="longName">AUREL BGC</identifier>
+        <identifier name="Fenergo:AssociationId">84501</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31697</identifier>
+        <identifier name="longName"> Sean Anthony Windeatt</identifier>
+        <identifier name="Fenergo:AssociationId">145447</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="UBObydefault(LegalRep.orEquivalent)">
+        <identifier name="Fenergo:LegalEntityId">31697</identifier>
+        <identifier name="longName"> Sean Anthony Windeatt</identifier>
+        <identifier name="Fenergo:AssociationId">145448</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31698</identifier>
+        <identifier name="longName"> John Martin Skitt</identifier>
+        <identifier name="Fenergo:AssociationId">144698</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31699</identifier>
+        <identifier name="longName"> Nicholas George Stewart</identifier>
+        <identifier name="Fenergo:AssociationId">144701</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31700</identifier>
+        <identifier name="longName"> Darryl Anthony Denyssen</identifier>
+        <identifier name="Fenergo:AssociationId">144703</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31702</identifier>
+        <identifier name="longName"> Stephen John Harper</identifier>
+        <identifier name="Fenergo:AssociationId">144709</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31703</identifier>
+        <identifier name="longName"> John Simon Bertie Smith</identifier>
+        <identifier name="Fenergo:AssociationId">144711</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31704</identifier>
+        <identifier name="longName"> Barbara Jane Merry</identifier>
+        <identifier name="Fenergo:AssociationId">144713</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Director">
+        <identifier name="Fenergo:LegalEntityId">31705</identifier>
+        <identifier name="longName"> Gerard Patrick Lyons</identifier>
+        <identifier name="Fenergo:AssociationId">144715</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="Owner">
+        <identifier name="Fenergo:LegalEntityId">31712</identifier>
+        <identifier name="longName">BGC EUROPEAN HOLDINGS L.P.</identifier>
+        <identifier name="Fenergo:AssociationId">144731</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="parentSubsidiary">
+        <identifier name="longName">id</identifier>
+        <isRegulated>true</isRegulated>
+        <countryOfIncorporation>USA</countryOfIncorporation>
+        <regulator name="longName">United States - Securities &amp; Exchange Commission</regulator>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="sovereignWealthFundGovernment">
+        <identifier name="longName">GBR</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="GLEIF">
+        <identifier name="longName">BGC Brokers L.P.</identifier>
+        <gleifLegalForm>Limited Partnership</gleifLegalForm>
+        <gleifLegalJurisdiction>GB</gleifLegalJurisdiction>
+        <gleifLegalName>BGC Brokers L.P.</gleifLegalName>
+        <gleifLegalEntityStatus>Active</gleifLegalEntityStatus>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="riskUltimateParent">
+        <identifier name="BBCMPYID">196870</identifier>
+        <identifier name="CLIENTREF">CANTORFTB</identifier>
+        <identifier name="LEI">549300RLUEEVQEMX0450</identifier>
+        <identifier name="longName">Cantor Fitzgerald LP</identifier>
+      </relatedLegalEntity>
+      <relatedLegalEntity relationship="riskImmediateParent">
+        <identifier name="BBCMPYID">883477</identifier>
+        <identifier name="CLIENTREF">BGCPARTN</identifier>
+        <identifier name="LEI">TF1LXM1YNB81WKUH5G19</identifier>
+        <identifier name="longName">BGC Partners Inc</identifier>
+      </relatedLegalEntity>
+      <address classification="RegisteredAddress">
+        <addressLine1>5 CHURCHILL PLACE</addressLine1>
+        <addressLine2>CANARY WHARF</addressLine2>
+        <cityName>LONDON</cityName>
+        <postalCode>E14 5RD</postalCode>
+        <countryName>UNITED KINGDOM</countryName>
+        <countryCode countryCodeType="ISO2">GB</countryCode>
+        <additionalCountryCode codeType="ISO3">GBR</additionalCountryCode>
+      </address>
+      <address classification="BusinessAddress">
+        <addressLine1>5 CHURCHILL PLACE</addressLine1>
+        <addressLine2>CANARY WHARF</addressLine2>
+        <cityName>LONDON</cityName>
+        <postalCode>E14 5RD</postalCode>
+        <countryName>UNITED KINGDOM</countryName>
+        <countryCode countryCodeType="ISO2">GB</countryCode>
+        <additionalCountryCode codeType="ISO3">GBR</additionalCountryCode>
+      </address>
+      <relatedLocation idScheme="Name" type="country" relationship="PrincipalPlaceOfBusiness">United Kingdom</relatedLocation>
+      <relatedLocation idScheme="ISO3" type="country" relationship="Residence">GBR</relatedLocation>
+      <relatedLocation idScheme="ISO2" type="country" relationship="Residence">GB</relatedLocation>
+      <relatedLocation idScheme="ISO3" type="country" relationship="Incorporation">GBR</relatedLocation>
+      <relatedLocation idScheme="ISO2" type="country" relationship="Incorporation">GB</relatedLocation>
+      <relatedLocation idScheme="ISO2" type="country" relationship="Risk">US</relatedLocation>
+      <relatedLocation idScheme="ISO3" type="country" relationship="Risk">USA</relatedLocation>
+      <creditRating name="derivedPartyPolicy" scheme="Derived Party Policy" vendor="MHI">BBB-</creditRating>
+      <creditRating name="ecai" scheme="Basel II Issuer Rating" vendor="MHI">NR</creditRating>
+      <creditRating name="ecaiStandard" scheme="Basel II Issuer Rating Standard" vendor="MHI">NR</creditRating>
+      <creditRating name="internal" scheme="MHI Internal Party" vendor="MIG">BBB-</creditRating>
+      <creditRating name="internal" scheme="MHSS Internal Party">BBB-</creditRating>
+      <narrative scheme="Fenergo:CaseType">Regular Review</narrative>
+      <narrative scheme="Fenergo:CaseId">36991</narrative>
+      <narrative scheme="Fenergo:CaseName">BGC BROKERS L.P.</narrative>
+      <narrative scheme="Fenergo:CaseCreatedBy">prd-apac-103\FC-WorkFlow</narrative>
+      <narrative scheme="Fenergo:CaseCreated">2023-12-16T01:00:30Z</narrative>
+      <narrative scheme="Fenergo:CaseLastUpdated">2024-06-07T12:15:59Z</narrative>
+      <narrative scheme="Fenergo:CaseLastUpdatedBy">System</narrative>
+      <narrative scheme="Fenergo:CasePriority">Medium</narrative>
+      <narrative scheme="Fenergo:CaseTargetCompletionDate">2023-12-26T00:00:00Z</narrative>
+      <narrative scheme="natureOfActivityBusiness">BROKER</narrative>
+      <narrative scheme="isListedOnApprovedExc">false</narrative>
+      <narrative scheme="isEntQuotedEUFATFDIFCStockEx">false</narrative>
+      <narrative scheme="IsEntOwndByGovnInNonFATFCntryExpUAE">false</narrative>
+      <narrative scheme="customerIntroducedToFirm">Other (please specify)</narrative>
+      <narrative scheme="customerIntroducedToFirmOther">EXISTING APPROVED BROKER CHANGED BUSINESS ACTIVITIES FROM BGC INTERNATIONAL LP TO BGC BROKERS LP</narrative>
+      <narrative scheme="nameOfHomeStateAuthority">GBR</narrative>
+      <narrative scheme="natureOfBusiness">Other</narrative>
+      <narrative scheme="infoSharingDisclosure">No</narrative>
+      <narrative scheme="structureType">LP - Limited Partnership</narrative>
+      <classification scheme="overallAMLRisk">Medium</classification>
+      <classification scheme="LCHMember">N</classification>
+      <classification scheme="SICType">SECURITY BROKERS &amp; DEALERS</classification>
+      <classification scheme="internationalOrgCode">OTHER</classification>
+      <classification scheme="moneyServicesBusiness">No</classification>
+      <classification scheme="publiclyListed">No</classification>
+      <classification scheme="entityRegulated">Yes</classification>
+      <classification scheme="majorityOwnedSubsidiary">Yes</classification>
+      <classification scheme="FIEL">Not Applicable</classification>
+      <classification scheme="trustBusiness">No</classification>
+      <classification scheme="regulatorNumber">454814</classification>
+      <classification scheme="regulatedByApprovedRegulator">Yes</classification>
+      <classification scheme="issueBearerShares">No</classification>
+      <classification scheme="businessMarkets">Domestic and International</classification>
+      <classification scheme="bojIndustryCode">461000 - SECURITIES INDUSTRY</classification>
+      <classification scheme="bojIndustryCodeCore">461000 - SECURITIES INDUSTRY</classification>
+      <classification scheme="onboardingEntity">MHBKLND</classification>
+      <classification scheme="smallBusinessInvestmentCompany">No</classification>
+      <classification scheme="lEFundAffiliate">No</classification>
+      <classification scheme="corpDetailCode">4001 - CORPORATION</classification>
+      <classification scheme="entityType">Legal Entity</classification>
+      <classification scheme="supraNational">N</classification>
+      <classification scheme="principalAgent">Principal</classification>
+      <classification scheme="gicsLevel">4</classification>
+      <classification scheme="gicsCode">40M31010</classification>
+      <classification scheme="bOfECode">3143800720</classification>
+      <connectedPerson>
+        <id>145447</id>
+        <name>Sean Anthony Windeatt</name>
+        <firstName>Sean Anthony</firstName>
+        <lastName>Windeatt</lastName>
+        <dateOfBirth>1973-08-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>145448</id>
+        <name>Sean Anthony Windeatt</name>
+        <firstName>Sean Anthony</firstName>
+        <lastName>Windeatt</lastName>
+        <dateOfBirth>1973-08-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144698</id>
+        <name>John Martin Skitt</name>
+        <firstName>John Martin</firstName>
+        <lastName>Skitt</lastName>
+        <dateOfBirth>1973-10-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144701</id>
+        <name>Nicholas George Stewart</name>
+        <firstName>Nicholas George</firstName>
+        <lastName>Stewart</lastName>
+        <dateOfBirth>1980-07-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144703</id>
+        <name>Darryl Anthony Denyssen</name>
+        <firstName>Darryl Anthony</firstName>
+        <lastName>Denyssen</lastName>
+        <dateOfBirth>1973-05-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144709</id>
+        <name>Stephen John Harper</name>
+        <firstName>Stephen John</firstName>
+        <lastName>Harper</lastName>
+        <dateOfBirth>1960-07-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144711</id>
+        <name>John Simon Bertie Smith</name>
+        <firstName>John Simon Bertie</firstName>
+        <lastName>Smith</lastName>
+        <dateOfBirth>1964-08-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144713</id>
+        <name>Barbara Jane Merry</name>
+        <firstName>Barbara Jane</firstName>
+        <lastName>Merry</lastName>
+        <dateOfBirth>1957-06-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <connectedPerson>
+        <id>144715</id>
+        <name>Gerard Patrick Lyons</name>
+        <firstName>Gerard Patrick</firstName>
+        <lastName>Lyons</lastName>
+        <dateOfBirth>1961-03-01</dateOfBirth>
+        <nationality>United Kingdom</nationality>
+        <narrative scheme="individualEntity">INDIVIDUAL</narrative>
+      </connectedPerson>
+      <globalPrimaryRelationshipManager id="_gprm2171" type="RelationshipManager">
+        <identifier name="Name">DAVID CALVERT</identifier>
+      </globalPrimaryRelationshipManager>
+      <clientRole>
+        <organisationId>MHI</organisationId>
+        <identifier name="CUSTREF">384</identifier>
+        <identifier name="STRATREF">BGCBROK SG</identifier>
+        <identifier name="BIC">CFILGB3LXXX</identifier>
+        <identifier name="MIZUHO_CCIF_NO">0305791171</identifier>
+        <relatedLocation idScheme="Other" type="branch" relationship="legalAgreement">London</relatedLocation>
+        <narrative scheme="Fenergo:CaseRelationshipManager">David Calvert</narrative>
+        <classification scheme="customerType">Broker / Broker-Dealer</classification>
+        <classification scheme="mhi:customerType">11</classification>
+        <classification scheme="roleType">Client/Counterparty</classification>
+        <classification scheme="customerStatus">ACTIVE</classification>
+        <classification scheme="legalEntityCategory">Partnership</classification>
+        <classification scheme="riskCategory">Low</classification>
+        <classification scheme="riskRating">Medium</classification>
+        <classification scheme="kycClientType">Not Applicable</classification>
+        <classification scheme="FCAConductOfBusiness">Professional Client</classification>
+        <classification scheme="bOfECode">3143800720</classification>
+        <clientContact>
+          <accountOfficer id="cnprm4" type="NonPrimaryRelationshipManager">
+            <identifier name="Name">Guy Cornelius</identifier>
+          </accountOfficer>
+        </clientContact>
+        <regulatoryDetails>
+          <amlData>
+            <amlProgramInPlace>true</amlProgramInPlace>
+          </amlData>
+          <kycData>
+            <kycLevel>Standard</kycLevel>
+            <registrationBody>Companies House</registrationBody>
+            <employeePensionSchemeContributor>false</employeePensionSchemeContributor>
+          </kycData>
+          <mifidData>
+            <powerOfRepresentation>N</powerOfRepresentation>
+            <classification scheme="automatedReconciliation">N</classification>
+            <classification scheme="regulatoryClass">PC9</classification>
+            <classification scheme="mifidIIClassification">Per Se Professional</classification>
+            <classification scheme="mifidIILegalEntityType">Other institutional investors whose main activity is to invest in financial instruments, including entities dedicated to the securitisation of assets or other financing transactions</classification>
+            <classification scheme="investmentPortfolioProvided">No</classification>
+            <narrative scheme="ukCountry">No</narrative>
+          </mifidData>
+          <isAdministratorRegulated>false</isAdministratorRegulated>
+          <isAdvisorRegulated>false</isAdvisorRegulated>
+        </regulatoryDetails>
+        <tax>
+          <jurisdiction idScheme="ISO3" type="country">GBR</jurisdiction>
+          <identifier name="TIN">5456443826</identifier>
+        </tax>
+        <tradingProduct tradeable="true" id="_4.1">
+          <productId productIdScheme="Fenergo:ProductId">7841</productId>
+          <productId productIdScheme="Fenergo:ProductType">Convertible Bond</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1602</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_4.2">
+          <productId productIdScheme="Fenergo:ProductId">7841</productId>
+          <productId productIdScheme="Fenergo:ProductType">Convertible Bond</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1620</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_4.3">
+          <productId productIdScheme="Fenergo:ProductId">7841</productId>
+          <productId productIdScheme="Fenergo:ProductType">Convertible Bond</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1621</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_4.4">
+          <productId productIdScheme="Fenergo:ProductId">7841</productId>
+          <productId productIdScheme="Fenergo:ProductType">Convertible Bond</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1623</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_5.1">
+          <productId productIdScheme="Fenergo:ProductId">7838</productId>
+          <productId productIdScheme="Fenergo:ProductType">Execution Only</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2601</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_5.2">
+          <productId productIdScheme="Fenergo:ProductId">7838</productId>
+          <productId productIdScheme="Fenergo:ProductType">Execution Only</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2605</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_5.3">
+          <productId productIdScheme="Fenergo:ProductId">7838</productId>
+          <productId productIdScheme="Fenergo:ProductType">Execution Only</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_6.1">
+          <productId productIdScheme="Fenergo:ProductId">7839</productId>
+          <productId productIdScheme="Fenergo:ProductType">Clearing</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2601</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_6.2">
+          <productId productIdScheme="Fenergo:ProductId">7839</productId>
+          <productId productIdScheme="Fenergo:ProductType">Clearing</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2605</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_6.3">
+          <productId productIdScheme="Fenergo:ProductId">7839</productId>
+          <productId productIdScheme="Fenergo:ProductType">Clearing</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Futures</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_7.1">
+          <productId productIdScheme="Fenergo:ProductId">7840</productId>
+          <productId productIdScheme="Fenergo:ProductType">Bonds</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1610</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_7.2">
+          <productId productIdScheme="Fenergo:ProductId">7840</productId>
+          <productId productIdScheme="Fenergo:ProductType">Bonds</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1611</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_7.3">
+          <productId productIdScheme="Fenergo:ProductId">7840</productId>
+          <productId productIdScheme="Fenergo:ProductType">Bonds</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1627</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_7.4">
+          <productId productIdScheme="Fenergo:ProductId">7840</productId>
+          <productId productIdScheme="Fenergo:ProductType">Bonds</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1630</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_7.5">
+          <productId productIdScheme="Fenergo:ProductId">7840</productId>
+          <productId productIdScheme="Fenergo:ProductType">Bonds</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Interest Rate Products</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1631</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.1">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1305</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.2">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1309</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.3">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1307</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.4">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1310</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.5">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1303</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.6">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1306</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <tradingProduct tradeable="true" id="_8.7">
+          <productId productIdScheme="Fenergo:ProductId">7842</productId>
+          <productId productIdScheme="Fenergo:ProductType">Common Stock</productId>
+          <productId productIdScheme="Fenergo:ProductCategory">Equities</productId>
+          <productId productIdScheme="mhi:taxonomy-ref">1320</productId>
+          <contact>
+            <contactReference href="cnprm4"/>
+          </contact>
+          <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+          <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+          <lastUpdatedDateTime>2023-07-21T23:32:41.000Z</lastUpdatedDateTime>
+        </tradingProduct>
+        <review nextReviewDate="2026-06-07" type="Client" lastReviewDate="2024-06-07"/>
+        <review nextReviewDate="2026-06-07" type="Scheduled"/>
+        <account>
+          <identifier name="accountId">BGCBROKER2</identifier>
+          <identifier name="accountName">BGC BROKERS 2</identifier>
+          <identifier name="blockAccountCode">BGCBROKER2</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2024-04-12</openedDate>
+          <lastUpdatedDateTime>2024-04-12T15:07:03.000Z</lastUpdatedDateTime>
+          <narrative scheme="tradingLevel">B</narrative>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="SSILastUpdateTime">2024-04-12T15:03:41Z</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientRole">M - Market Side Counterparty</classification>
+          <classification scheme="clientRoleQualifier">D - Market Side Counterparty</classification>
+          <classification scheme="blockAccount">N</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGC MINT</identifier>
+          <identifier name="accountName">BGC BROKERS - MINT</identifier>
+          <identifier name="blockAccountCode">BGC MINT</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <identifier name="bloombergAccountId">BGCMINT</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2012-02-28</openedDate>
+          <lastUpdatedDateTime>2014-11-26</lastUpdatedDateTime>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="clientRole">M - Market Side Counterparty</classification>
+          <classification scheme="clientRoleQualifier">D - Market Side Counterparty</classification>
+          <classification scheme="clientBroker">B</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBRBASIS</identifier>
+          <identifier name="accountName">BGC BROKERS - BASIS TRADES</identifier>
+          <identifier name="blockAccountCode">BGCBRBASIS</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2010-06-24</openedDate>
+          <lastUpdatedDateTime>2014-11-26</lastUpdatedDateTime>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="clientBroker">B</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_5.1"/>
+          <product href="_5.2"/>
+          <product href="_5.3"/>
+          <product href="_6.1"/>
+          <product href="_6.2"/>
+          <product href="_6.3"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBRKBDBL</identifier>
+          <identifier name="accountName">BGC BROKERS - BLOC AC</identifier>
+          <identifier name="blockAccountCode">BGCBRKBDBL</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2012-03-12</openedDate>
+          <lastUpdatedDateTime>2014-11-26</lastUpdatedDateTime>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="clientBroker">C</classification>
+          <classification scheme="blockAccount">BONDBLOC</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBRLAKE</identifier>
+          <identifier name="accountName">LAKE SECURITIES</identifier>
+          <identifier name="blockAccountCode">BGCBRLAKE</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2020-01-20</openedDate>
+          <lastUpdatedDateTime>2020-01-21</lastUpdatedDateTime>
+          <narrative scheme="costCentre">50-Rate Sales</narrative>
+          <narrative scheme="tradingLevel">B</narrative>
+          <narrative scheme="domicileCountryISO">CHE</narrative>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="blockAccount">N</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBROK EQ</identifier>
+          <identifier name="accountName">BGC BROKERS</identifier>
+          <identifier name="blockAccountCode">BGCBROK EQ</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <identifier name="traxCode">BGCBRLON</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2007-10-16</openedDate>
+          <lastUpdatedDateTime>2014-11-26</lastUpdatedDateTime>
+          <narrative scheme="traxFlag">Y</narrative>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="clientRole">M - Market Side Counterparty</classification>
+          <classification scheme="clientRoleQualifier">D - Market Side Counterparty</classification>
+          <classification scheme="clientBroker">C</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBROKERS</identifier>
+          <identifier name="accountName">BGC BROKERS</identifier>
+          <identifier name="blockAccountCode">BGCBRKBDBL</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <identifier name="traxCode">BGCBRLON</identifier>
+          <identifier name="bloombergAccountId">C</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2007-10-16</openedDate>
+          <lastUpdatedDateTime>2014-11-26</lastUpdatedDateTime>
+          <narrative scheme="traxFlag">Y</narrative>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="clientBroker">C</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <account>
+          <identifier name="accountId">BGCBRPMART</identifier>
+          <identifier name="accountName">BGC BROKERS TRADING AS RP MARTIN</identifier>
+          <identifier name="blockAccountCode">BGCBRPMART</identifier>
+          <identifier name="revenueCentre">MHI</identifier>
+          <identifier name="alternateReportCode">454814</identifier>
+          <isOpenForTrading>true</isOpenForTrading>
+          <openedDate>2019-08-30</openedDate>
+          <lastUpdatedDateTime>2019-08-29T23:00:00.000Z</lastUpdatedDateTime>
+          <narrative scheme="costCentre">143-Emerging Markets</narrative>
+          <narrative scheme="domicileCountryISO">GBR</narrative>
+          <narrative scheme="SSIRequestFlag">No</narrative>
+          <narrative scheme="isXVAAccount">N</narrative>
+          <narrative scheme="isFAAccount">N</narrative>
+          <classification scheme="clientLevel">SUBAC</classification>
+          <classification scheme="blockAccount">N</classification>
+          <classification scheme="accountStatus">COMPLETE</classification>
+          <product href="_4.1"/>
+          <product href="_4.2"/>
+          <product href="_4.3"/>
+          <product href="_4.4"/>
+          <product href="_7.1"/>
+          <product href="_7.2"/>
+          <product href="_7.3"/>
+          <product href="_7.4"/>
+          <product href="_7.5"/>
+          <product href="_8.1"/>
+          <product href="_8.2"/>
+          <product href="_8.3"/>
+          <product href="_8.4"/>
+          <product href="_8.5"/>
+          <product href="_8.6"/>
+          <product href="_8.7"/>
+        </account>
+        <createdDateTime>2007-10-15T23:00:00.000Z</createdDateTime>
+        <activeFromDateTime>2007-10-15T23:00:00.000Z</activeFromDateTime>
+      </clientRole>
+      <dateOfIncorporation>2007-10-16</dateOfIncorporation>
+      <website description="Corporate Website">www.bgcg.com</website>
+      <asOf>2025-01-06T00:15:36.402Z</asOf>
+      <validation validationScheme="eventId">50b0653e-9461-498a-8106-40ce28e75a3b</validation>
+    </legalEntity>
+  </list>

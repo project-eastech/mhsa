@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="cmfAsset">
+    <cmfAsset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/13.12.0/com/mizuho/bdm/cmf/cmfAsset.xsd">
+      <validatedAsset>
+        <vendor>goldenSource</vendor>
+        <createdDatetime>2014-07-04T14:13:15.000Z</createdDatetime>
+        <assetName ISSUE_CURRENCY="JPY" PRICING_MULTIPLIER="1" TYPE="Equity" SUBTYPE="Common" IS_UNIT_TRADED="N" ISSUE_STATUS="Active" ISSUE_DATE="1980-11-04" CURRENT_NOMINAL="38558507" OFFERED_DATE="1980-11-04" OWNERSHIP_TYPE="Unknown" ISSUE_METHOD="Unknown" DENOMINATION_CURRENCY="JPY">TOYO ENGINEERING CORP</assetName>
+        <identifiers>
+          <identifier TYPE="BBCMPSEC">115085-1001</identifier>
+          <identifier TYPE="BBUNIQUE">EQ0000000001182738</identifier>
+          <identifier TYPE="WERTPAPIER">866217</identifier>
+          <identifier TYPE="SICOVAM">990678</identifier>
+          <identifier TYPE="COMMON">003126803</identifier>
+          <identifier TYPE="ISIN">JP3607800004</identifier>
+          <identifier TYPE="MIZUHO">100000671894</identifier>
+          <identifier TYPE="BBCPTICK">TYOQF US</identifier>
+        </identifiers>
+        <issueListing LISTING_STATUS="Active" COUNTRY="JP" MIC="XTKS" EQUITY_MARKET_CAPITALISATION="27488.36" MHI_DEFAULT_LISTING="true" NAME="TOKYO STOCK EXCHANGE" CURRENCY="JPY" SETTLEMENT_CODE="JPEQ" ROUND_LOT_SIZE="100" PRIMARY="true">
+          <listingIdentifier TYPE="BBCMPSEC">115085-1000</listingIdentifier>
+          <listingIdentifier TYPE="BBCPTICK">6330 JP</listingIdentifier>
+          <listingIdentifier TYPE="BBTRDGSYMB">6330</listingIdentifier>
+          <listingIdentifier TYPE="BBUNIQUE">EQ0011508500001000</listingIdentifier>
+          <listingIdentifier TYPE="MHILIST">100001387685</listingIdentifier>
+          <listingIdentifier TYPE="SECREF">6330SH</listingIdentifier>
+          <listingIdentifier TYPE="SEDOL">6899718</listingIdentifier>
+          <listingIdentifier TYPE="TICKER">6330</listingIdentifier>
+          <listingIdentifier TYPE="RDW_ID">15878</listingIdentifier>
+          <listingIdentifier TYPE="STRATUS_SECREF">2100010163030048</listingIdentifier>
+          <listingIdentifier TYPE="CPGLOBAL">BBG000B9XWJ0</listingIdentifier>
+          <listingIdentifier TYPE="BBGLOBAL">BBG000B9XWJ0</listingIdentifier>
+          <hqla UK_ELIGIBILITY="Level 2B" BASEL_III_ELIGIBILITY="Level 2B" ANALYSIS_START_DATE="2007-01-04" PRICE_DROP_FOR_30_DAYS="52.6" MAX_PRICE_DROP_FOR_30_DAYS_START_DATE="2008-09-26" CURRENT_OECD_MEMBER_COUNTRY="true" EU_ELIGIBILITY="Level 2B" JP_ELIGIBILITY="Level 2B" IS_MAJOR_EQUITY_INDEX="false"/>
+        </issueListing>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO2" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Incorporation">JP</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO3" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Incorporation">JPN</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO2" GEO_UNIT_TYPE="Country" START_DATE="2015-11-24" GEO_UNIT_RELATIONSHIP="Issued In">JP</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO3" GEO_UNIT_TYPE="Country" START_DATE="2015-11-24" GEO_UNIT_RELATIONSHIP="Issued In">JPN</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO2" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Residence">JP</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO3" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Residence">JPN</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO2" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Risk">JP</geoUnitIdCode>
+        <geoUnitIdCode IDENTIFIER_TYPE="ISO3" GEO_UNIT_TYPE="Country" START_DATE="2014-07-03" GEO_UNIT_RELATIONSHIP="Risk">JPN</geoUnitIdCode>
+        <rating SCHEME="Derived Policy" START_DATE="2018-07-11" GROUP_NAME="Derived Ratings">NR</rating>
+        <group PARENT_GROUP_NAME="Bloomberg Market Sectors" START_DATE="2014-07-04">Equity</group>
+        <group PARENT_GROUP_NAME="Foreign Currency" START_DATE="2014-07-04">FCY</group>
+        <group PARENT_GROUP_NAME="INTEREST" START_DATE="2016-09-10">MHSA Inventory</group>
+        <classification GROUP_NAME="AssetClassification" SCHEME="144A Eligible" START_DATE="2014-07-04">N</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="BOE Investment Type">73</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="SFTR Security(Collateral) Quality" PURPOSE="SECUQUAL" START_DATE="2020-02-26">NOAP</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="SFTR Security(Collateral) Type" PURPOSE="SECUTYPE" START_DATE="2019-10-27">OEQU</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="MHI Accounting Classification" PURPOSE="INDCLASS" START_DATE="2015-02-12">JEQ</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Region" PURPOSE="INDCLASS" START_DATE="2014-10-22">NAMR</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Industry Group" PURPOSE="INDCLASS" START_DATE="2014-07-04">Engineering&amp;Construction</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Industry Sub Group" PURPOSE="INSUBTYP" START_DATE="2014-07-04">Engineering/R&amp;D Services</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Industry Sector" PURPOSE="INDCLASS" START_DATE="2014-07-04">Industrial</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Market Sector" PURPOSE="INDCLASS" START_DATE="2014-07-04">Equity</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Region" PURPOSE="INDCLASS" START_DATE="2014-07-04">ASIA1</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Security Type" PURPOSE="BBISSTYP" START_DATE="2014-07-04">Common Stock</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Bloomberg Security Type" PURPOSE="INSUBTYP" START_DATE="2014-07-04">Common Stock</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="Classification of financial instruments" PURPOSE="INSTRCAT" START_DATE="2014-07-04">ESVUFR</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="MHI Asset Taxonomy" PURPOSE="INDCLASS" START_DATE="2016-01-01">1305</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="mhi:taxonomy-product-group" PURPOSE="INDCLASS" START_DATE="2016-01-01">Cash</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="mhi:taxonomy-asset-class" PURPOSE="INDCLASS" START_DATE="2016-01-01">Equity</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="mhi:taxonomy-product" PURPOSE="INDCLASS" START_DATE="2016-01-01">Common Stock</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="mhi:taxonomy-sub-product" PURPOSE="INDCLASS" START_DATE="2016-01-01">Listed</classification>
+        <classification GROUP_NAME="AssetClassification" SCHEME="mhi:taxonomy-alias" PURPOSE="INDCLASS" START_DATE="2016-01-01">Listed Equity</classification>
+        <relatedParty>
+          <knownRelatedParty>
+            <partyIssuer PARTY_NAME="Toyo Engineering Corp" PARTY_TYPE="LEI" START_DATE="2017-11-08">353800SPB3B3BM0FO630</partyIssuer>
+            <partyIssuer PARTY_NAME="Toyo Engineering Corp" PARTY_TYPE="CLIENTREF" START_DATE="2014-10-22">TOYO ENG</partyIssuer>
+            <partyIssuer PARTY_NAME="Toyo Engineering Corp" PARTY_TYPE="BBGCID" START_DATE="2015-06-19">BBG001FFFC68</partyIssuer>
+            <partyIssuer PARTY_NAME="Toyo Engineering Corp" PARTY_TYPE="RDW_ID" START_DATE="2015-03-26">6121</partyIssuer>
+            <partyIssuer PARTY_NAME="Toyo Engineering Corp" PARTY_TYPE="BBCMPYID" START_DATE="2014-05-31">115085</partyIssuer>
+          </knownRelatedParty>
+          <genericRelatedParty PARTY_NAME="TOKYO STOCK EXCHANGE" PARTY_TYPE="MIC" PARTY_ROLE="PrimaryExchange">XTKS</genericRelatedParty>
+        </relatedParty>
+        <assetCharacteristics>
+          <isCovered>false</isCovered>
+          <isHybrid>false</isHybrid>
+          <trustPreferredIndicator>false</trustPreferredIndicator>
+        </assetCharacteristics>
+        <indexProperties>
+          <marketCapitalisation>27488.36</marketCapitalisation>
+        </indexProperties>
+      </validatedAsset>
+      <lastUpdated>2025-01-10T11:35:49.000Z</lastUpdated>
+      <asOf>2025-01-10T11:42:47.516Z</asOf>
+      <validation validationScheme="mhi:hash-value">3367</validation>
+    </cmfAsset>
+  </list>
