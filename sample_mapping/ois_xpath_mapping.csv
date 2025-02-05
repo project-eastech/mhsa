@@ -47,7 +47,7 @@ OIS,leg1_margin,/MxML/trades/trade/tradeBody/interestRateSwap/stream[streamTempl
 OIS,leg1_effective_date,/MxML/trades/trade/tradeBody/interestRateSwap/stream[streamTemplate/leg=2]/effectiveDate,DateType,TRUE,,LEG1S
 OIS,leg1_maturity,/MxML/trades/trade/tradeBody/interestRateSwap/stream[streamTemplate/leg=2]/maturity,DateType,TRUE,,LEG1E
 OIS,collateral_agreement_category,/MxML/trades/trade/tradeHeader/tradeCategory/collateralAgreementCategory,StringType,TRUE,,CSA
-OIS,risk_section,,StringType,TRUE,,"CURVSCURR, CURR0, CURR1"
+OIS,risk_section,,StringType,TRUE,,CURVSCURR CURR0 CURR1
 OIS,future_holder_reference,,StringType,TRUE,,BUYSELL
 OIS,receiverPartyReference,,StringType,TRUE,,BUYSELL
 OIS,trade_amount,/MxML/trades/trade/tradeBody/interestRateSwap/stream[streamTemplate/leg=1]/cashFlows/interestFlows/interestPaymentPeriod/calculationPeriod/notionalAmount,DecimalType,TRUE,,TRADED_AMT
