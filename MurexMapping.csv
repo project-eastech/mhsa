@@ -1,0 +1,5 @@
+typology,family,group,type,landing,history,enriched
+OIS,IRD,IRS,,01_landing/murex_xml,02_history/murex_xml,murex_trn_ois_ird_irs
+BasisSwap,IRD,IRS,,01_landing/murex_xml,02_history/murex_xml,murex_trn_basisswap_ird_irs
+Spot,CURR,FXD,FXD,01_landing/murex_xml,02_history/murex_xml,murex_trn_spot_curr_fxd_fxd
+Spot,CURR,FXD,SWLEG,01_landing/murex_xml,02_history/murex_xml,murex_trn_spot_curr_fxd_swleg
