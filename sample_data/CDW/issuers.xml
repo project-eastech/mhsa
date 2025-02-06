@@ -2,67 +2,67 @@
   <list itemType="cmfParty">
     <cmfParty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/13.4.0/com/mizuho/bdm/cmf/cmfParty.xsd">
       <vendor>goldenSource</vendor>
-      <issuerName>WhiteStar Asset Management LLC</issuerName>
+      <issuerName>MU Investments Co Ltd</issuerName>
       <status>ACTIVE</status>
-      <lastUpdatedTime>2018-07-30T22:33:02.000Z</lastUpdatedTime>
-      <partyLastUpdated>2025-01-07T00:15:04.000Z</partyLastUpdated>
+      <lastUpdatedTime>2014-05-31T21:44:57.000Z</lastUpdatedTime>
+      <partyLastUpdated>2025-01-17T00:15:04.000Z</partyLastUpdated>
       <riskUltimateParent>
         <identifier>
           <type>CLIENTREF</type>
-          <id>CLEARLKC</id>
+          <id>MITS TOK F</id>
         </identifier>
         <identifier>
           <type>Bloomberg Company Id</type>
-          <id>14075184</id>
+          <id>1442748</id>
         </identifier>
         <identifier>
           <type>Group Id</type>
-          <id>14075184 G</id>
+          <id>1442748 G</id>
         </identifier>
         <identifier>
           <type>LEI</type>
-          <id>549300KS80DRM1PH2X89</id>
+          <id>353800V2V8PUY9TK3E06</id>
         </identifier>
-        <ultimateParentName>Clearlake Capital Group LP</ultimateParentName>
-        <ultimateParentCntryOfDomicile>US</ultimateParentCntryOfDomicile>
-        <ultimateParentCntryOfIncorporation>US</ultimateParentCntryOfIncorporation>
-        <ultimateParentCntryOfRisk>US</ultimateParentCntryOfRisk>
+        <ultimateParentName>Mitsubishi UFJ Financial Group Inc</ultimateParentName>
+        <ultimateParentCntryOfDomicile>JP</ultimateParentCntryOfDomicile>
+        <ultimateParentCntryOfIncorporation>JP</ultimateParentCntryOfIncorporation>
+        <ultimateParentCntryOfRisk>JP</ultimateParentCntryOfRisk>
       </riskUltimateParent>
       <immediateParent>
-        <name>Clearlake Capital Group LP</name>
+        <name>Mitsubishi UFJ Trust &amp; Banking Corp</name>
         <identifier>
           <type>CLIENTREF</type>
-          <id>CLEARLKC</id>
+          <id>MITS T+B</id>
         </identifier>
         <identifier>
           <type>Bloomberg Company Id</type>
-          <id>14075184</id>
+          <id>114168</id>
         </identifier>
         <identifier>
           <type>LEI</type>
-          <id>549300KS80DRM1PH2X89</id>
+          <id>JBONEPAGQXF4QP29B387</id>
         </identifier>
       </immediateParent>
       <identifiers>
         <identifier>
           <type>Bloomberg Company Id</type>
-          <id>61333728</id>
+          <id>14797873</id>
         </identifier>
         <identifier>
           <type>Client Reference</type>
-          <id>WHITESTR</id>
+          <id>MUINVSTM</id>
         </identifier>
         <identifier>
           <type>LEI</type>
-          <id>254900DI5HCXBPTLM867</id>
+          <id>353800FAPFF0X0CM0L48</id>
         </identifier>
         <identifier>
           <type>Fenergo LegalEntity Id</type>
-          <id>18705</id>
+          <id>19012</id>
         </identifier>
         <identifier>
           <type>BBG Company Name</type>
-          <id>WhiteStar Asset Management LLC</id>
+          <id>Mitsubishi UFJ Real Estate Asset Management Co Ltd</id>
         </identifier>
       </identifiers>
       <geographicProfile>
@@ -71,7 +71,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO2</identifierType>
-            <identifierCode>US</identifierCode>
+            <identifierCode>JP</identifierCode>
           </geoUnit>
         </relationship>
         <relationship>
@@ -79,7 +79,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO3</identifierType>
-            <identifierCode>USA</identifierCode>
+            <identifierCode>JPN</identifierCode>
           </geoUnit>
           <startDate>2007-12-07</startDate>
         </relationship>
@@ -88,7 +88,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO2</identifierType>
-            <identifierCode>US</identifierCode>
+            <identifierCode>JP</identifierCode>
           </geoUnit>
         </relationship>
         <relationship>
@@ -96,7 +96,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO3</identifierType>
-            <identifierCode>USA</identifierCode>
+            <identifierCode>JPN</identifierCode>
           </geoUnit>
           <startDate>2007-12-07</startDate>
         </relationship>
@@ -105,7 +105,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO2</identifierType>
-            <identifierCode>US</identifierCode>
+            <identifierCode>JP</identifierCode>
           </geoUnit>
         </relationship>
         <relationship>
@@ -113,7 +113,7 @@
           <geoUnitType>Country</geoUnitType>
           <geoUnit>
             <identifierType>ISO3</identifierType>
-            <identifierCode>USA</identifierCode>
+            <identifierCode>JPN</identifierCode>
           </geoUnit>
           <startDate>2007-12-07</startDate>
         </relationship>
@@ -122,14 +122,14 @@
         <rating>
           <groupName>Derived Party Ratings</groupName>
           <scheme>MHI Internal Party</scheme>
-          <value>BB</value>
-          <startDate>2022-01-19</startDate>
+          <value>A</value>
+          <startDate>2017-11-09</startDate>
         </rating>
         <rating>
           <groupName>Derived Party Ratings</groupName>
           <scheme>Derived Party Policy</scheme>
-          <value>BB</value>
-          <startDate>2022-01-19</startDate>
+          <value>A</value>
+          <startDate>2018-02-21</startDate>
           <vendorIdentifier>
             <value>MHI</value>
           </vendorIdentifier>
@@ -138,7 +138,7 @@
           <groupName>Derived Party Ratings</groupName>
           <scheme>Basel II Issuer Rating</scheme>
           <value>NR</value>
-          <startDate>2022-01-17</startDate>
+          <startDate>2015-08-27</startDate>
           <vendorIdentifier>
             <value>MHI</value>
           </vendorIdentifier>
@@ -147,7 +147,7 @@
           <groupName>Derived Party Ratings</groupName>
           <scheme>Basel II Issuer Rating Standard</scheme>
           <value>NR</value>
-          <startDate>2022-01-17</startDate>
+          <startDate>2015-08-27</startDate>
           <vendorIdentifier>
             <value>MHI</value>
           </vendorIdentifier>
@@ -157,62 +157,471 @@
         <classification>
           <scheme>RISKWGHT</scheme>
           <value>N</value>
-          <startDate>2022-01-17</startDate>
+          <startDate>2019-09-25</startDate>
         </classification>
         <classification>
           <scheme>CQSRANKG</scheme>
           <value>NR</value>
-          <startDate>2022-01-17</startDate>
-        </classification>
-        <classification>
-          <scheme>Derived GICS</scheme>
-          <value>402010</value>
-          <startDate>2022-01-17</startDate>
-        </classification>
-        <classification>
-          <scheme>GICS Level</scheme>
-          <value>3</value>
-          <startDate>2022-01-17</startDate>
+          <startDate>2018-10-06</startDate>
         </classification>
         <classification>
           <scheme>BOE Classification - Parties</scheme>
           <value>4323800730</value>
-          <startDate>2022-01-17</startDate>
+          <startDate>2016-03-31</startDate>
+        </classification>
+        <classification>
+          <scheme>Derived GICS</scheme>
+          <value>402010</value>
+          <startDate>2015-08-27</startDate>
+        </classification>
+        <classification>
+          <scheme>GICS Level</scheme>
+          <value>3</value>
+          <startDate>2015-08-27</startDate>
         </classification>
         <classification>
           <scheme>Financial Institutions</scheme>
           <value>Other Financial Institutions</value>
-          <startDate>2022-01-17</startDate>
-        </classification>
-        <classification>
-          <scheme>Industry Group</scheme>
-          <value>Diversified Finan Serv</value>
-          <startDate>2020-06-24</startDate>
-        </classification>
-        <classification>
-          <scheme>Industry Subgroup</scheme>
-          <value>Invest Mgmnt/Advis Serv</value>
-          <startDate>2020-06-24</startDate>
+          <startDate>2015-08-27</startDate>
         </classification>
         <classification>
           <scheme>Industry Sector</scheme>
           <value>Financial</value>
-          <startDate>2020-06-24</startDate>
+          <startDate>2014-07-04</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Group</scheme>
+          <value>Diversified Finan Serv</value>
+          <startDate>2014-07-04</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Subgroup</scheme>
+          <value>Invest Mgmnt/Advis Serv</value>
+          <startDate>2014-07-04</startDate>
         </classification>
       </industryProfile>
       <group>
         <name>MHI Inventory</name>
         <purpose>MUREX</purpose>
-        <startDate>2022-01-17</startDate>
+        <startDate>2015-08-27</startDate>
         <description>MHI Inventory</description>
       </group>
-      <address classification="RegisteredAddress">
-        <addressLine1>C/O The Corporation Trust Company</addressLine1>
-        <addressLine2>Corporation Trust Center</addressLine2>
-        <addressLine3>1209 Orange St</addressLine3>
-        <locality>Wilmington, US-DE 19801, US</locality>
+      <address classification="CorporateHeadquarters">
+        <addressLine1>3-11 Kanda Surugadai</addressLine1>
+        <addressLine2>2-Chome Chiyoda-ku</addressLine2>
+        <addressLine3>Tokyo</addressLine3>
+        <locality>Japan</locality>
+        <postalCode>101-0062</postalCode>
+        <countryName>Japan</countryName>
       </address>
-      <asOf>2025-01-07T00:16:37.306Z</asOf>
+      <address classification="RegisteredAddress">
+        <addressLine1>1-9-1, Higashi Shimbashi</addressLine1>
+        <addressLine2>Minato-ku Tokyo, 105-7320</addressLine2>
+        <addressLine3>JP</addressLine3>
+      </address>
+      <asOf>2025-01-17T00:16:13.373Z</asOf>
       <validation validationScheme="mhi:hash-value">2</validation>
+    </cmfParty>
+    <cmfParty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/13.4.0/com/mizuho/bdm/cmf/cmfParty.xsd">
+      <vendor>goldenSource</vendor>
+      <issuerName>Pharo Africa Fund Ltd</issuerName>
+      <status>ACTIVE</status>
+      <lastUpdatedTime>2024-02-27T16:03:00.000Z</lastUpdatedTime>
+      <partyLastUpdated>2024-07-26T06:47:50.000Z</partyLastUpdated>
+      <riskUltimateParent>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>PHAROMNG</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>12999962</id>
+        </identifier>
+        <identifier>
+          <type>Group Id</type>
+          <id>PHAROMGTUG</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>549300Y1EF311UBUO034</id>
+        </identifier>
+        <ultimateParentName>Pharo Management UK LLP</ultimateParentName>
+        <ultimateParentCntryOfDomicile>GB</ultimateParentCntryOfDomicile>
+        <ultimateParentCntryOfIncorporation>GB</ultimateParentCntryOfIncorporation>
+        <ultimateParentCntryOfRisk>GB</ultimateParentCntryOfRisk>
+      </riskUltimateParent>
+      <immediateParent>
+        <name>Pharo Management UK LLP/United Kingdom</name>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>PHAROMNGB</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>17881965</id>
+        </identifier>
+      </immediateParent>
+      <identifiers>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>37708436</id>
+        </identifier>
+        <identifier>
+          <type>Client Reference</type>
+          <id>PHAROFRC</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>5493009I3LR0TBC6EP52</id>
+        </identifier>
+        <identifier>
+          <type>Fenergo LegalEntity Id</type>
+          <id>21441</id>
+        </identifier>
+        <identifier>
+          <type>BBG Company Name</type>
+          <id>Pharo Africa Fund Ltd</id>
+        </identifier>
+      </identifiers>
+      <geographicProfile>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>KY</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>CYM</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>KY</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>CYM</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>KY</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>CYM</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+      </geographicProfile>
+      <creditProfile>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Derived Party Policy</scheme>
+          <value>B-</value>
+          <startDate>2024-01-11</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>MHI Internal Party</scheme>
+          <value>B-</value>
+          <startDate>2017-01-09</startDate>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating</scheme>
+          <value>NR</value>
+          <startDate>2015-08-27</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating Standard</scheme>
+          <value>NR</value>
+          <startDate>2015-08-27</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+      </creditProfile>
+      <industryProfile>
+        <classification>
+          <scheme>RISKWGHT</scheme>
+          <value>N</value>
+          <startDate>2019-05-18</startDate>
+        </classification>
+        <classification>
+          <scheme>CQSRANKG</scheme>
+          <value>NR</value>
+          <startDate>2018-10-06</startDate>
+        </classification>
+        <classification>
+          <scheme>Derived GICS</scheme>
+          <value>40M12010</value>
+          <startDate>2015-08-27</startDate>
+        </classification>
+        <classification>
+          <scheme>GICS Level</scheme>
+          <value>4</value>
+          <startDate>2015-08-27</startDate>
+        </classification>
+        <classification>
+          <scheme>BOE Classification - Parties</scheme>
+          <value>4324700730</value>
+          <startDate>2015-08-27</startDate>
+        </classification>
+      </industryProfile>
+      <group>
+        <name>MHI Inventory</name>
+        <purpose>MUREX</purpose>
+        <startDate>2024-01-11</startDate>
+        <description>MHI Inventory</description>
+      </group>
+      <address classification="CorporateHeadquarters"/>
+      <address classification="RegisteredAddress">
+        <addressLine1>PO Box 31106</addressLine1>
+        <addressLine2>Camana Bay</addressLine2>
+        <addressLine3>George Town, KY1-1205</addressLine3>
+        <locality>KY</locality>
+      </address>
+      <asOf>2024-07-26T06:47:53.889Z</asOf>
+      <validation validationScheme="mhi:hash-value">6</validation>
+    </cmfParty>
+    <cmfParty xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/13.4.0/com/mizuho/bdm/cmf/cmfParty.xsd">
+      <vendor>goldenSource</vendor>
+      <issuerName>Shore Capital Markets Ltd</issuerName>
+      <status>ACTIVE</status>
+      <lastUpdatedTime>2014-05-28T00:15:36.000Z</lastUpdatedTime>
+      <partyLastUpdated>2024-12-18T00:15:03.000Z</partyLastUpdated>
+      <riskUltimateParent>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>LONDONCPB</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>354724</id>
+        </identifier>
+        <identifier>
+          <type>Group Id</type>
+          <id>SHCAGRLT G</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>2138002TLQU3X2QPRE66</id>
+        </identifier>
+        <ultimateParentName>Shore Capital Group Ltd</ultimateParentName>
+        <ultimateParentCntryOfDomicile>GB</ultimateParentCntryOfDomicile>
+        <ultimateParentCntryOfIncorporation>GG</ultimateParentCntryOfIncorporation>
+        <ultimateParentCntryOfRisk>GB</ultimateParentCntryOfRisk>
+      </riskUltimateParent>
+      <immediateParent>
+        <name>Shore Capital Group Ltd</name>
+        <identifier>
+          <type>CLIENTREF</type>
+          <id>LONDONCPB</id>
+        </identifier>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>354724</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>2138002TLQU3X2QPRE66</id>
+        </identifier>
+      </immediateParent>
+      <identifiers>
+        <identifier>
+          <type>Bloomberg Company Id</type>
+          <id>12925218</id>
+        </identifier>
+        <identifier>
+          <type>Client Reference</type>
+          <id>SHORECPTA</id>
+        </identifier>
+        <identifier>
+          <type>LEI</type>
+          <id>213800SL93AE1F9QY139</id>
+        </identifier>
+        <identifier>
+          <type>BBG Company Name</type>
+          <id>Shore Capital Markets Ltd</id>
+        </identifier>
+      </identifiers>
+      <geographicProfile>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>GB</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Incorporation</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>GBR</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>GB</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Residence</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>GBR</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO2</identifierType>
+            <identifierCode>GB</identifierCode>
+          </geoUnit>
+        </relationship>
+        <relationship>
+          <relationshipType>Risk</relationshipType>
+          <geoUnitType>Country</geoUnitType>
+          <geoUnit>
+            <identifierType>ISO3</identifierType>
+            <identifierCode>GBR</identifierCode>
+          </geoUnit>
+          <startDate>2007-12-07</startDate>
+        </relationship>
+      </geographicProfile>
+      <creditProfile>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Derived Party Policy</scheme>
+          <value>NR</value>
+          <startDate>2016-10-21</startDate>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating</scheme>
+          <value>NR</value>
+          <startDate>2016-05-12</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+        <rating>
+          <groupName>Derived Party Ratings</groupName>
+          <scheme>Basel II Issuer Rating Standard</scheme>
+          <value>NR</value>
+          <startDate>2016-05-12</startDate>
+          <vendorIdentifier>
+            <value>MHI</value>
+          </vendorIdentifier>
+        </rating>
+      </creditProfile>
+      <industryProfile>
+        <classification>
+          <scheme>RISKWGHT</scheme>
+          <value>N</value>
+          <startDate>2019-04-18</startDate>
+        </classification>
+        <classification>
+          <scheme>CQSRANKG</scheme>
+          <value>NR</value>
+          <startDate>2018-10-06</startDate>
+        </classification>
+        <classification>
+          <scheme>Derived GICS</scheme>
+          <value>402010</value>
+          <startDate>2016-06-08</startDate>
+        </classification>
+        <classification>
+          <scheme>GICS Level</scheme>
+          <value>3</value>
+          <startDate>2016-06-08</startDate>
+        </classification>
+        <classification>
+          <scheme>BOE Classification - Parties</scheme>
+          <value>3143800720</value>
+          <startDate>2016-05-23</startDate>
+        </classification>
+        <classification>
+          <scheme>Financial Institutions</scheme>
+          <value>Other Financial Institutions</value>
+          <startDate>2016-05-23</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Sector</scheme>
+          <value>Financial</value>
+          <startDate>2014-07-04</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Subgroup</scheme>
+          <value>Finance-Other Services</value>
+          <startDate>2014-07-04</startDate>
+        </classification>
+        <classification>
+          <scheme>Industry Group</scheme>
+          <value>Diversified Finan Serv</value>
+          <startDate>2014-07-04</startDate>
+        </classification>
+      </industryProfile>
+      <group>
+        <name>MHI Inventory</name>
+        <purpose>MUREX</purpose>
+        <startDate>2021-07-19</startDate>
+        <description>MHI Inventory</description>
+      </group>
+      <address classification="CorporateHeadquarters">
+        <addressLine1>Bond Street House</addressLine1>
+        <addressLine2>14 Clifford Street</addressLine2>
+        <addressLine3>London</addressLine3>
+        <locality>United Kingdom</locality>
+        <postalCode>W1S 4JU</postalCode>
+        <countryName>United Kingdom</countryName>
+      </address>
+      <address classification="RegisteredAddress">
+        <addressLine1>BOND STREET HOUSE</addressLine1>
+        <addressLine2>14 CLIFFORD STREET</addressLine2>
+        <addressLine3>LONDON, GB-LND W1S 4JU</addressLine3>
+        <locality>GB</locality>
+      </address>
+      <asOf>2024-12-18T00:21:09.455Z</asOf>
+      <validation validationScheme="mhi:hash-value">1</validation>
     </cmfParty>
   </list>

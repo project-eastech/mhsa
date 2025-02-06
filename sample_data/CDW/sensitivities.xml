@@ -8,12 +8,63 @@
         <tradeId tradeIdScheme="mhi:trade-id">5e44f451e7f9d8b95596915d</tradeId>
         <tradeId tradeIdScheme="mhi:FRONT_ARENA">25480L2</tradeId>
       </tradeIdentifier>
-      <sensitivities businessDate="2025-01-10" dayPartName="EOD" publicationDate="2025-01-10T16:16:17.000Z">
+      <sensitivities businessDate="2025-01-20" dayPartName="EOD" publicationDate="2025-01-20T16:15:26.000Z">
         <sensitivity type="Delta">0</sensitivity>
         <sensitivity type="Gamma">0</sensitivity>
         <sensitivity type="Vega">0</sensitivity>
         <sensitivity type="Rho">0</sensitivity>
-        <sensitivity type="ImpliedStrikePrice">99.886233</sensitivity>
+        <sensitivity type="ImpliedStrikePrice">99.896204</sensitivity>
+        <sensitivity type="ImpliedVolatility">20</sensitivity>
+      </sensitivities>
+    </cmfSensitivities>
+    <cmfSensitivities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/9.0.0/com/mizuho/bdm/cmf/cmfSensitivities.xsd">
+      <organisationId>MHI</organisationId>
+      <tradeIdentifier>
+        <tradeId tradeIdScheme="mhi:MUREX">34130873</tradeId>
+        <tradeId tradeIdScheme="mhi:UTI">K9ZGANUZ9CIR00000000000034130873</tradeId>
+        <tradeId tradeIdScheme="mhi:trade-id">5e44f45ee7f9d8b95596a42f</tradeId>
+        <tradeId tradeIdScheme="mhi:FRONT_ARENA">25490L2</tradeId>
+      </tradeIdentifier>
+      <sensitivities businessDate="2025-01-20" dayPartName="EOD" publicationDate="2025-01-20T16:15:28.000Z">
+        <sensitivity type="Delta">0</sensitivity>
+        <sensitivity type="Gamma">0</sensitivity>
+        <sensitivity type="Vega">0</sensitivity>
+        <sensitivity type="Rho">0</sensitivity>
+        <sensitivity type="ImpliedStrikePrice">99.896204</sensitivity>
+        <sensitivity type="ImpliedVolatility">20</sensitivity>
+      </sensitivities>
+    </cmfSensitivities>
+    <cmfSensitivities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/9.0.0/com/mizuho/bdm/cmf/cmfSensitivities.xsd">
+      <organisationId>MHI</organisationId>
+      <tradeIdentifier>
+        <tradeId tradeIdScheme="mhi:MUREX">34134081</tradeId>
+        <tradeId tradeIdScheme="mhi:UTI">K9ZGANUZ9CIR00000000000034134081</tradeId>
+        <tradeId tradeIdScheme="mhi:trade-id">5e452abce7f9d8b955dc3262</tradeId>
+        <tradeId tradeIdScheme="mhi:FRONT_ARENA">25480L1S37662</tradeId>
+      </tradeIdentifier>
+      <sensitivities businessDate="2025-01-20" dayPartName="EOD" publicationDate="2025-01-20T16:15:22.000Z">
+        <sensitivity type="Delta">0</sensitivity>
+        <sensitivity type="Gamma">0</sensitivity>
+        <sensitivity type="Vega">0</sensitivity>
+        <sensitivity type="Rho">0</sensitivity>
+        <sensitivity type="ImpliedStrikePrice">99.896204</sensitivity>
+        <sensitivity type="ImpliedVolatility">20</sensitivity>
+      </sensitivities>
+    </cmfSensitivities>
+    <cmfSensitivities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://svc-bdmentity01p:8080/schema/9.0.0/com/mizuho/bdm/cmf/cmfSensitivities.xsd">
+      <organisationId>MHI</organisationId>
+      <tradeIdentifier>
+        <tradeId tradeIdScheme="mhi:MUREX">34134258</tradeId>
+        <tradeId tradeIdScheme="mhi:UTI">K9ZGANUZ9CIR00000000000034134258</tradeId>
+        <tradeId tradeIdScheme="mhi:trade-id">5e452fd3e7f9d8b955e289d8</tradeId>
+        <tradeId tradeIdScheme="mhi:FRONT_ARENA">25490L1S37985</tradeId>
+      </tradeIdentifier>
+      <sensitivities businessDate="2025-01-20" dayPartName="EOD" publicationDate="2025-01-20T16:15:23.000Z">
+        <sensitivity type="Delta">0</sensitivity>
+        <sensitivity type="Gamma">0</sensitivity>
+        <sensitivity type="Vega">0</sensitivity>
+        <sensitivity type="Rho">0</sensitivity>
+        <sensitivity type="ImpliedStrikePrice">99.896204</sensitivity>
         <sensitivity type="ImpliedVolatility">20</sensitivity>
       </sensitivities>
     </cmfSensitivities>

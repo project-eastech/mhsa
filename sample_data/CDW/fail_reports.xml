@@ -3,9 +3,9 @@
     <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
       <header>
         <sentBy>Gloss</sentBy>
-        <creationTimestamp>2025-01-10T22:15:34.473Z</creationTimestamp>
+        <creationTimestamp>2025-01-20T22:10:37.671Z</creationTimestamp>
       </header>
-      <m:asOfDate>2025-01-10</m:asOfDate>
+      <m:asOfDate>2025-01-20</m:asOfDate>
       <m:fail>
         <m:partyTradeIdentifier>
           <tradeId tradeIdScheme="MUREX" xsi:type="TradeId">54671290</tradeId>
@@ -62,6 +62,140 @@
       </account>
       <account id="NOSTRO">
         <accountName>EUROCLEAR A/C 96499</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EUROCLEAR A/C 96499</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-20T22:10:37.161Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-20</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId tradeIdScheme="MUREX" xsi:type="TradeId">54957290</tradeId>
+          <tradeId tradeIdScheme="ANVIL" xsi:type="TradeId">B696596</tradeId>
+          <tradeId tradeIdScheme="UTI" xsi:type="TradeId">8RUL8VJZ2AM232X20241007XH1003080862527XXXX</tradeId>
+          <tradeId tradeIdScheme="CPTY_UTI" xsi:type="TradeId">8RUL8VJZ2AM232X20241007XH1003080862527XXXX</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SUMMARY" xsi:type="TradeId">133695749</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048539423Q1</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048539423Q2</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000050442603Q1</tradeId>
+          <tradeId tradeIdScheme="mhi:GLOSS" xsi:type="TradeId">00000000000050442603</tradeId>
+          <tradeId tradeIdScheme="gloss:netted-trade-id" xsi:type="TradeId">
+          </tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeLeg>Far</m:tradeLeg>
+        <m:tradeDate>2024-10-14</m:tradeDate>
+        <m:operation>REC</m:operation>
+        <m:expectedSettlementDate>2025-01-17</m:expectedSettlementDate>
+        <m:failReason>
+          <m:sequenceNo>0</m:sequenceNo>
+          <m:type>StockInstructionReason</m:type>
+          <m:appliesTo>Stock</m:appliesTo>
+          <m:reason>SETT/PENF AWSH - NTEN</m:reason>
+        </m:failReason>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002033420</m:instrumentId>
+          <m:expectedSettlementAmount>2000000</m:expectedSettlementAmount>
+          <m:settledAmount>1719000</m:settledAmount>
+          <m:failedAmount>281000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1928710.28</m:expectedSettlementAmount>
+          <m:settledAmount>1657726.48</m:settledAmount>
+          <m:failedAmount>270983.8</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CALYON</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>REPO FFCLN</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EUROCLEAR A/C 96499</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EUROCLEAR A/C 96499</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-20T22:10:37.814Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-20</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId tradeIdScheme="MUREX" xsi:type="TradeId">55100884</tradeId>
+          <tradeId tradeIdScheme="ANVIL" xsi:type="TradeId">B720479</tradeId>
+          <tradeId tradeIdScheme="UTI" xsi:type="TradeId">213800HZ54TG54H2KV032022022512300055100884</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SUMMARY" xsi:type="TradeId">134204699</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048728653Q1</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048729587Q1</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048729588Q1</tradeId>
+          <tradeId tradeIdScheme="GLOSS_SWIFT" xsi:type="TradeId">0000048729587Q2</tradeId>
+          <tradeId tradeIdScheme="mhi:GLOSS" xsi:type="TradeId">00000000000048728683</tradeId>
+          <tradeId tradeIdScheme="gloss:netted-trade-id" xsi:type="TradeId">
+          </tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">BLCM</m:productType>
+        <m:tradeLeg>Far</m:tradeLeg>
+        <m:tradeDate>2022-02-25</m:tradeDate>
+        <m:tradeState>Split</m:tradeState>
+        <m:operation>DEL</m:operation>
+        <m:expectedSettlementDate>2024-03-22</m:expectedSettlementDate>
+        <m:failReason>
+          <m:sequenceNo>0</m:sequenceNo>
+          <m:type>StockInstructionReason</m:type>
+          <m:appliesTo>Stock</m:appliesTo>
+          <m:reason>IPRC/CAND CANS - MATCHING UNSUCCESSFUL - END OF RECYCLING</m:reason>
+        </m:failReason>
+        <m:failReason>
+          <m:sequenceNo>0</m:sequenceNo>
+          <m:type>DiaryReason</m:type>
+          <m:appliesTo>Stock</m:appliesTo>
+          <m:reason>Instruction Not Matched</m:reason>
+        </m:failReason>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100001392639</m:instrumentId>
+          <m:expectedSettlementAmount>200000</m:expectedSettlementAmount>
+          <m:settledAmount>199792</m:settledAmount>
+          <m:failedAmount>208</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>0</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>0</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>UBSSWLEGCS</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>REPO FFCLN</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>
+        </accountName>
       </account>
       <account id="DEPO">
         <accountName>EUROCLEAR A/C 96499</accountName>
