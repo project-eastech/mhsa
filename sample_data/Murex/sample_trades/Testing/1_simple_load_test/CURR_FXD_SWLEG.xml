@@ -183,7 +183,7 @@
       <legalEntity>MHBK_LE</legalEntity>
       <tradeId>
        <tradeInternalId>7</tradeInternalId>
-       <tradeGlobalId>MW:100000002</tradeGlobalId>
+       <tradeGlobalId>MW:100000007</tradeGlobalId>
        <publishingSystemID>7</publishingSystemID>
       </tradeId>
      </tradeView>
@@ -559,7 +559,7 @@
       <legalEntity>MHBK_LE</legalEntity>
       <tradeId>
        <tradeInternalId>8</tradeInternalId>
-       <tradeGlobalId>MW:100000002</tradeGlobalId>
+       <tradeGlobalId>MW:100000008</tradeGlobalId>
        <publishingSystemID>8</publishingSystemID>
       </tradeId>
      </tradeView>
@@ -783,7 +783,7 @@
       <primarySystem>MX</primarySystem>
      </businessObjectId>
      <contractId>
-      <internalId>2</internalId>
+      <internalId>7</internalId>
       <rootContract>0</rootContract>
      </contractId>
     </contractReference>
