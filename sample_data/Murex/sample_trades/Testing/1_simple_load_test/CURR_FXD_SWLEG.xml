@@ -17,7 +17,7 @@
     <primarySystem>MX</primarySystem>
    </businessObjectId>
    <contractId>
-    <internalId>2</internalId>
+    <internalId>7</internalId>
     <rootContract>0</rootContract>
    </contractId>
    <regulatoryInformation>
@@ -69,7 +69,7 @@
        <primarySystem>MX</primarySystem>
       </businessObjectId>
       <contractId>
-       <internalId>2</internalId>
+       <internalId>7</internalId>
        <rootContract>0</rootContract>
       </contractId>
      </contractOriginReference>
@@ -170,7 +170,7 @@
     </tradeCategory>
     <tradeSource>
      <replacementDate>20250210</replacementDate>
-     <originPublishingSystemID>3</originPublishingSystemID>
+     <originPublishingSystemID>7</originPublishingSystemID>
     </tradeSource>
     <tradeViews>
      <tradeView>
@@ -409,11 +409,11 @@
     </tradeAgreements>
     <contractReference mefClass="mxContractFxISWAP">
      <businessObjectId mefClass="mxContractFxISWAP" mefClassInstanceType="0">
-      <identifier>2</identifier>
+      <identifier>7</identifier>
       <primarySystem>MX</primarySystem>
      </businessObjectId>
      <contractId>
-      <internalId>2</internalId>
+      <internalId>7</internalId>
       <rootContract>0</rootContract>
      </contractId>
     </contractReference>
@@ -779,7 +779,7 @@
     </tradeAgreements>
     <contractReference mefClass="mxContractFxISWAP">
      <businessObjectId mefClass="mxContractFxISWAP" mefClassInstanceType="0">
-      <identifier>2</identifier>
+      <identifier>7</identifier>
       <primarySystem>MX</primarySystem>
      </businessObjectId>
      <contractId>
