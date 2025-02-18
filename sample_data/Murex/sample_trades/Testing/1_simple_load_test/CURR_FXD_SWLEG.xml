@@ -2,10 +2,10 @@
 <!DOCTYPE MxML>
 <MxML version="1-1">
  <contracts>
-  <contract id="contract_2" mefClass="mxContractFxISWAP" mefClassInstanceType="0.000000" mefClassInstanceLabel="FX swap">
+  <contract id="contract_7" mefClass="mxContractFxISWAP" mefClassInstanceType="0.000000" mefClassInstanceLabel="FX swap">
    <businessObjectId mefClass="mxContractFxISWAP">
-    <identifier>2</identifier>
-    <baseIdentifier>2</baseIdentifier>
+    <identifier>7</identifier>
+    <baseIdentifier>7</baseIdentifier>
     <versionIdentifier>
      <versionRevision>
       <versionNumber>1</versionNumber>
