@@ -126,10 +126,10 @@
   </contract>
  </contracts>
  <trades>
-  <trade id="trade_3" mefClass="mxContractITRADE" mefClassInstanceType="92.000000">
+  <trade id="trade_7" mefClass="mxContractITRADE" mefClassInstanceType="92.000000">
    <businessObjectId mefClass="mxContractITRADE" mefClassInstanceType="92">
-    <identifier>3</identifier>
-    <baseIdentifier>3</baseIdentifier>
+    <identifier>7</identifier>
+    <baseIdentifier>7</baseIdentifier>
     <versionIdentifier>
      <versionRevision>
       <versionNumber>1</versionNumber>
@@ -182,9 +182,9 @@
       <entity>MHBK</entity>
       <legalEntity>MHBK_LE</legalEntity>
       <tradeId>
-       <tradeInternalId>3</tradeInternalId>
+       <tradeInternalId>7</tradeInternalId>
        <tradeGlobalId>MW:100000002</tradeGlobalId>
-       <publishingSystemID>3</publishingSystemID>
+       <publishingSystemID>7</publishingSystemID>
       </tradeId>
      </tradeView>
      <tradeView>
@@ -502,10 +502,10 @@
    </tradeStatus>
    <tradeVersions/>
   </trade>
-  <trade id="trade_4" mefClass="mxContractITRADE" mefClassInstanceType="92.000000">
+  <trade id="trade_8" mefClass="mxContractITRADE" mefClassInstanceType="92.000000">
    <businessObjectId mefClass="mxContractITRADE" mefClassInstanceType="92">
-    <identifier>4</identifier>
-    <baseIdentifier>4</baseIdentifier>
+    <identifier>8</identifier>
+    <baseIdentifier>8</baseIdentifier>
     <versionIdentifier>
      <versionRevision>
       <versionNumber>1</versionNumber>
@@ -546,7 +546,7 @@
     </tradeCategory>
     <tradeSource>
      <replacementDate>20250210</replacementDate>
-     <originPublishingSystemID>4</originPublishingSystemID>
+     <originPublishingSystemID>8</originPublishingSystemID>
     </tradeSource>
     <tradeViews>
      <tradeView>
@@ -558,8 +558,9 @@
       <entity>MHBK</entity>
       <legalEntity>MHBK_LE</legalEntity>
       <tradeId>
-       <tradeInternalId>4</tradeInternalId>
-       <publishingSystemID>4</publishingSystemID>
+       <tradeInternalId>8</tradeInternalId>
+       <tradeGlobalId>MW:100000002</tradeGlobalId>
+       <publishingSystemID>8</publishingSystemID>
       </tradeId>
      </tradeView>
      <tradeView>
