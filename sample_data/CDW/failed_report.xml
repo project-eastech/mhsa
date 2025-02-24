@@ -1,0 +1,3564 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="m:failReport">
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.024Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56288615</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5071188</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5071186</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138436099</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050374828</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401876</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>AUD</m:currency>
+          <m:expectedSettlementAmount>498215</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>498215</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC EU</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI AUSA</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH AUD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.073Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352386</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895638</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138641176</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050458997</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002115237</m:instrumentId>
+          <m:expectedSettlementAmount>10700000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10700000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>10410779.45</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10410779.45</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.119Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56186415</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062595</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138044231</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050219973</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-06</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399902</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>2993610</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>2993610</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MHSA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RDCM</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.166Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56290949</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5071364</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138440397</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050381148</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-15</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149939</m:instrumentId>
+          <m:expectedSettlementAmount>1500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1094090</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1094090</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>TRADITION LDN</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI IG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.212Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56389672</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B900319</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138783783</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050508299</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-21</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002229903</m:instrumentId>
+          <m:expectedSettlementAmount>780000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>780000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>773370</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>773370</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>DB LDN-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USIG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.258Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286694</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070705</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5070703</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403608</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5077627</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365382</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>1400000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1400000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1392272</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1392272</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>GEN2-KSKR-1IC-BNP</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.304Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56372833</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B898315</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138734190</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050485490</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-20</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002397685</m:instrumentId>
+          <m:expectedSettlementAmount>6840000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>6840000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>6848550</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>6848550</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USTR</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.350Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224326</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B879693</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138163458</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050442963</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002372957</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>4320436.31</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4320436.31</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CMBC INT-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.400Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56389651</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B900315</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138782736</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050508073</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-21</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002068024</m:instrumentId>
+          <m:expectedSettlementAmount>21700000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>21700000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>20723500</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>20723500</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.442Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352697</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895653</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138641289</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050460147</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002264650</m:instrumentId>
+          <m:expectedSettlementAmount>44000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>44000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>42225348</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>42225348</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.488Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56188408</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062905</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5062592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138059368</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5078109</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050227755</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-06</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399902</m:instrumentId>
+          <m:expectedSettlementAmount>1500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1496805</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1496805</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CAMHKCSFIA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RDCM</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.534Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55978698</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B848988</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137255839</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137484319</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137484320</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137486469</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137488029</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137490176</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137526569</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137534049</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137541558</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137557583</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137557976</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137567385</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137571952</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137582476</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137647505</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137647922</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137665831</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137683411</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137683645</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137693885</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137693886</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137699798</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137701617</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137702565</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137703346</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137704460</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137728012</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137730383</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137731670</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137790002</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137791213</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137797324</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137847630</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137847816</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137848965</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137866068</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137888619</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137889876</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137894075</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137932719</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137934048</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137937492</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137980605</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138016133</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138016941</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138028474</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138040760</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138066243</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138086006</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138087388</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138099609</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138180074</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138185972</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138190278</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138199730</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138200429</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138247029</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138247030</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138258926</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138264687</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138277838</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138278680</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138340008</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138340100</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138344791</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138356549</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138361527</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138364088</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138405575</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138405836</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138418031</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138430366</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138460179</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138483865</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138495125</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138513604</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138541144</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138560817</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138565382</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138576134</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138581452</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138595287</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138597827</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138621815</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138644400</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138644709</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138656588</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138673870</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138693935</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138697494</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138712835</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138713153</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138717478</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138785813</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138796109</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138801165</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138813788</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138816260</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138838508</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857591</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857593</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000049934768</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-18</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002316817</m:instrumentId>
+          <m:expectedSettlementAmount>0</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>0</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>170721036.11</m:expectedSettlementAmount>
+          <m:settledAmount>170716833.33</m:settledAmount>
+          <m:failedAmount>4202.78</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HSBC_TRI</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3TR REPO</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>
+        </accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.580Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352143</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895552</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138642045</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050457936</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002161809</m:instrumentId>
+          <m:expectedSettlementAmount>4000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>4019320</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4019320</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>UBSAGLONBR-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USIG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.626Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352385</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895637</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138643180</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050458999</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002324750</m:instrumentId>
+          <m:expectedSettlementAmount>4500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>4412131.5</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4412131.5</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.672Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56188410</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062907</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5062592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138064465</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050226763</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-06</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399902</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>498935</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>498935</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CAMHKGIGBF</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RDCM</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.718Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56081228</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B861899</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137698490</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050412249</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-27</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-16</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149920</m:instrumentId>
+          <m:expectedSettlementAmount>1280000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1280000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1164706.42</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1164706.42</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>NOMURA SG LTD</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USIG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.764Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55960899</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B847049</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137228894</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000049919542</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-17</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002374794</m:instrumentId>
+          <m:expectedSettlementAmount>15000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>15000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>15055533.33</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>15055533.33</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>SOC GEN - REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.810Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224220</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5066004</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5066002</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138158442</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050270810</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149939</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>2184570</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>2184570</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MHSA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI IG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.856Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352122</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895542</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138642036</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050457874</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002397685</m:instrumentId>
+          <m:expectedSettlementAmount>6840000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>6840000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>6860223.79</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>6860223.79</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USTR</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.902Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352696</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895654</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138643299</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050460148</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002341612</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>9193050</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>9193050</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.948Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56095239</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B863852</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137738035</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050484363</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-30</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002377452</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>479197.66</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>479197.66</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>BNP-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.994Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286584</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070615</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138404541</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050364324</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3003510</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3003510</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.039Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56332058</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5074955</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5074953</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138564095</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050424116</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-16</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002307699</m:instrumentId>
+          <m:expectedSettlementAmount>278000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>278000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>294602.78</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>294602.78</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO INTL PLC</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNFG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.085Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55080274</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B717122</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">134087908</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050484362</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-10-22</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002377452</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>499016.67</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>499016.67</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>BNP-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.132Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56374531</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5077446</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5077444</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138749953</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050488475</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-20</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002229903</m:instrumentId>
+          <m:expectedSettlementAmount>1500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1490549.79</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1490549.79</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>BROKERAGE</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI IG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.178Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286695</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070706</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138404623</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050364406</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>1400000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1400000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1392272</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1392272</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.225Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56372867</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B898344</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138722168</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050485621</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-20</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002389101</m:instrumentId>
+          <m:expectedSettlementAmount>20000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>20000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>17287640</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>17287640</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.270Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56313555</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5073703</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138520364</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050402137</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-15</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-16</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149920</m:instrumentId>
+          <m:expectedSettlementAmount>947000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>947000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>856640.42</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>856640.42</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>BGC BROKERS L.P.</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNCO</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.316Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352352</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5075911</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5075909</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138641143</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050455331</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002402947</m:instrumentId>
+          <m:expectedSettlementAmount>1000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1001435</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1001435</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>IBF SEC-OSU</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.362Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56309134</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5071786</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138482869</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050392846</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>9945700</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>9945700</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.408Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56081219</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B861865</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137680311</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050354885</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-27</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-14</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149920</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>454749.92</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>454749.92</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>NOMURA SG LTD</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USIG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.454Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224341</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5066168</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138158473</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050268798</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399099</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>4750000</m:settledAmount>
+          <m:failedAmount>250000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5003650</m:expectedSettlementAmount>
+          <m:settledAmount>4753467.5</m:settledAmount>
+          <m:failedAmount>250182.5</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.500Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286585</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070633</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5070631</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403510</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365299</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5011400</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5011400</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HUATAI CAP</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.546Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286582</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070634</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138404540</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050364323</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5011400</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5011400</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.592Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224340</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5066167</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5066165</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138159504</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050271796</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399099</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>4750000</m:settledAmount>
+          <m:failedAmount>250000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5003650</m:expectedSettlementAmount>
+          <m:settledAmount>4753467.5</m:settledAmount>
+          <m:failedAmount>250182.5</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC II</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.637Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286583</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070614</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5070612</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403509</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365298</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3003510</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3003510</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC II</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.683Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56188409</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062906</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5062592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138061340</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050229767</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-06</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399902</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>498935</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>498935</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CAMC-SBRIGIF</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RDCM</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.729Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352200</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5075812</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5075810</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138642096</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050454301</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002402947</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3004305</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3004305</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>IBF SEC-OSU</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.775Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56149770</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B870510</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137896558</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050485616</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-03</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002389101</m:instrumentId>
+          <m:expectedSettlementAmount>20000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>20000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>17244257.36</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>17244257.36</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.821Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56335409</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5075385</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5075384</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138603664</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050437768</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002271849</m:instrumentId>
+          <m:expectedSettlementAmount>8000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>8000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>8209366.67</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>8209366.67</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO INTL PLC</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNFG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.867Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56389652</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B900318</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138784756</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050508076</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-21</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002364391</m:instrumentId>
+          <m:expectedSettlementAmount>11000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>11000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>11013750</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>11013750</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.913Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">54185531</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B567099</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">130952040</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000047511407</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-08-21</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002341612</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>9294800.7</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>9294800.7</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:02.959Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286693</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070702</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138404622</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050364405</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>3600000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3600000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3580128</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3580128</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.005Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55515219</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B784831</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">135621461</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000049297848</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-11-18</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002386014</m:instrumentId>
+          <m:expectedSettlementAmount>30000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>30000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>29744103.67</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>29744103.67</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANWHA INV - REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.051Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">54164827</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B563681</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">130866087</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000047479639</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-08-20</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002264650</m:instrumentId>
+          <m:expectedSettlementAmount>44000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>44000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>44013301.66</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>44013301.66</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANA SEC-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.097Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56389650</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B900316</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138783740</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050508074</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-21</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002115237</m:instrumentId>
+          <m:expectedSettlementAmount>10700000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10700000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>10419125</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10419125</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.143Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56331473</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5074560</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5074558</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138562946</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050428378</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-16</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>10029800</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10029800</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC II</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.190Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286602</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070732</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403548</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365338</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-13</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-14</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149920</m:instrumentId>
+          <m:expectedSettlementAmount>1327000</m:expectedSettlementAmount>
+          <m:settledAmount>327000</m:settledAmount>
+          <m:failedAmount>1000000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1210139.22</m:expectedSettlementAmount>
+          <m:settledAmount>298203.11</m:settledAmount>
+          <m:failedAmount>911936.11</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>BGC BROKERS L.P.</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNCO</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.236Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56331520</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5074665</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138562981</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050428389</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-16</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>1000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1003120</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1003120</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.282Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56335361</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5075380</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138606359</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050439591</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002271849</m:instrumentId>
+          <m:expectedSettlementAmount>8000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>8000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>8209366.67</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>8209366.67</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNFG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.327Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56309133</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5071785</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5071784</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138479542</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5078415</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050394015</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>9945700</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>9945700</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>GEN2-KAARFIC-MS PB</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.373Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56203014</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5063329</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5063327</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138083040</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050240703</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-08</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-15</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002400285</m:instrumentId>
+          <m:expectedSettlementAmount>3000000</m:expectedSettlementAmount>
+          <m:settledAmount>2000000</m:settledAmount>
+          <m:failedAmount>1000000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3004320</m:expectedSettlementAmount>
+          <m:settledAmount>2002880</m:settledAmount>
+          <m:failedAmount>1001440</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO INTL PLC</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNFG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.419Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55561622</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B792411</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">135766081</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050291121</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-11-20</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149939</m:instrumentId>
+          <m:expectedSettlementAmount>1500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1167903.11</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1167903.11</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>DB LDN-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP USIG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.465Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56186416</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062594</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5062592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138044232</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5062904</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050219974</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-06</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399902</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>498935</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>498935</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CAMSVA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RDCM</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.511Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224201</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5065908</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138158438</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050270806</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399099</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5003650</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5003650</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.557Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56245841</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5068317</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5068315</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138246067</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050301719</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-10</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-15</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401090</m:instrumentId>
+          <m:expectedSettlementAmount>2000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>2000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1999760</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1999760</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MHSA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI OTH</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY DTC Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY DTC SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.603Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56389653</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B900317</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138783741</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050508075</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-21</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002324750</m:instrumentId>
+          <m:expectedSettlementAmount>4500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>4404375</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4404375</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.648Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56224200</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5065907</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5065905</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138160362</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050271763</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002399099</m:instrumentId>
+          <m:expectedSettlementAmount>5000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>5003650</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>5003650</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>CHINA SEC II</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.694Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56229590</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5067546</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5067544</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138209018</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050282286</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-10</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002230211</m:instrumentId>
+          <m:expectedSettlementAmount>200000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>200000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>182304</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>182304</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MHSA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI IG</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.740Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56291039</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B887831</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138440412</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050384296</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Delivery</m:operation>
+        <m:expectedSettlementDate>2025-01-17</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002374794</m:instrumentId>
+          <m:expectedSettlementAmount>15000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>15000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>14642100</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>14642100</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>SOC GEN - REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.786Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56287901</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5071080</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5071078</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403886</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365659</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401876</m:instrumentId>
+          <m:expectedSettlementAmount>500000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>AUD</m:currency>
+          <m:expectedSettlementAmount>498640</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>498640</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC EU</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI AUSA</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH AUD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.831Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56331472</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5074557</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138563952</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050429370</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-16</m:tradeDate>
+        <m:operation>Buy</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>10000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>10029800</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>10029800</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.877Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56205741</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B877757</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138123930</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050251001</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-08</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-09</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002035682</m:instrumentId>
+          <m:expectedSettlementAmount>1000000</m:expectedSettlementAmount>
+          <m:settledAmount>500000</m:settledAmount>
+          <m:failedAmount>500000</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>675000</m:expectedSettlementAmount>
+          <m:settledAmount>337500</m:settledAmount>
+          <m:failedAmount>337500</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>GF GLB CAP LTD-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.923Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352388</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895640</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138643181</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050459000</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002068024</m:instrumentId>
+          <m:expectedSettlementAmount>21700000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>21700000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>20733516.36</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>20733516.36</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:03.959Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56372895</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B898356</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138722201</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050485765</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-20</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002386014</m:instrumentId>
+          <m:expectedSettlementAmount>30000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>30000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>28563000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>28563000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HANWHA INV - REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:04.212Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56331521</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5074668</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5074666</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138562982</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050428390</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-16</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401845</m:instrumentId>
+          <m:expectedSettlementAmount>1000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>1003120</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>1003120</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>PRESIDENT</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:04.254Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56225112</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5066707</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5066705</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138160456</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050272874</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-09</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-14</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002149920</m:instrumentId>
+          <m:expectedSettlementAmount>200000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>200000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>184347.22</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>184347.22</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO INTL PLC</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI JNCO</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:04.300Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56354884</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895834</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138680740</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050466528</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">REOB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002402947</m:instrumentId>
+          <m:expectedSettlementAmount>4000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>4000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3799582</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3799582</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>IBF SEC-OSU-REPO</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:04.346Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56352387</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B895639</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138642180</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050458998</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2025-01-17</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002364391</m:instrumentId>
+          <m:expectedSettlementAmount>11000000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>11000000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>11032829.96</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>11032829.96</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>MIZUHO SEC USA</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3RP CUSD</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>BONY FED Cash USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>BONY FED SEC A/C</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:04.392Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">56286692</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG">5070701</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="BLOOMBERG-MASTER-ID">5070699</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138403607</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000050365381</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">PRIN</m:productType>
+        <m:tradeDate>2025-01-14</m:tradeDate>
+        <m:operation>Sell</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002401847</m:instrumentId>
+          <m:expectedSettlementAmount>3600000</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3600000</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>3580128</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>3580128</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>KSAARFICJP</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3FI RUS</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>EC MAIN</accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+  </list>
