@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="m:failReport">
+    <m:failReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fpml.org/FpML-5/reporting http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/fpml-5-6-reporting.xsd urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/4.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns="http://www.fpml.org/FpML-5/reporting">
+      <header>
+        <sentBy>Gloss</sentBy>
+        <creationTimestamp>2025-01-21T22:12:01.534Z</creationTimestamp>
+      </header>
+      <m:asOfDate>2025-01-21</m:asOfDate>
+      <m:fail>
+        <m:partyTradeIdentifier>
+          <tradeId xsi:type="TradeId" tradeIdScheme="MUREX">55978698</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="ANVIL">B848988</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137255839</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137484319</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137484320</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137486469</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137488029</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137490176</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137526569</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137534049</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137541558</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137557583</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137557976</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137567385</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137571952</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137582476</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137647505</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137647922</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137665831</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137683411</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137683645</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137693885</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137693886</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137699798</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137701617</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137702565</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137703346</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137704460</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137728012</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137730383</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137731670</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137790002</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137791213</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137797324</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137847630</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137847816</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137848965</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137866068</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137888619</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137889876</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137894075</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137932719</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137934048</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137937492</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">137980605</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138016133</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138016941</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138028474</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138040760</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138066243</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138086006</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138087388</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138099609</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138180074</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138185972</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138190278</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138199730</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138200429</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138247029</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138247030</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138258926</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138264687</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138277838</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138278680</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138340008</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138340100</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138344791</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138356549</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138361527</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138364088</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138405575</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138405836</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138418031</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138430366</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138460179</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138483865</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138495125</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138513604</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138541144</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138560817</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138565382</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138576134</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138581452</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138595287</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138597827</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138621815</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138644400</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138644709</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138656588</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138673870</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138693935</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138697494</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138712835</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138713153</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138717478</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138785813</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138796109</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138801165</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138813788</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138816260</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138838508</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857592</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857591</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="GLOSS_SUMMARY">138857593</tradeId>
+          <tradeId xsi:type="TradeId" tradeIdScheme="mhi:GLOSS">00000000000049934768</tradeId>
+        </m:partyTradeIdentifier>
+        <m:productType productTypeScheme="mizuho:gloss-trade-type">RECB</m:productType>
+        <m:tradeDate>2024-12-18</m:tradeDate>
+        <m:operation>Receipt</m:operation>
+        <m:expectedSettlementDate>2025-01-21</m:expectedSettlementDate>
+        <m:stock>
+          <m:instrumentId instrumentIdScheme="mhi:listing-id">100002316817</m:instrumentId>
+          <m:expectedSettlementAmount>0</m:expectedSettlementAmount>
+          <m:settledAmount>0</m:settledAmount>
+          <m:failedAmount>0</m:failedAmount>
+          <m:settlementStatus>Failed</m:settlementStatus>
+        </m:stock>
+        <m:cash>
+          <m:currency>USD</m:currency>
+          <m:expectedSettlementAmount>170721036.11</m:expectedSettlementAmount>
+          <m:settledAmount>170716833.33</m:settledAmount>
+          <m:failedAmount>4202.78</m:failedAmount>
+          <m:settlementStatus>Partial</m:settlementStatus>
+        </m:cash>
+      </m:fail>
+      <party id="COUNTERPARTY">
+        <partyName>HSBC_TRI</partyName>
+      </party>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHSS</partyId>
+      </party>
+      <account id="PORTFOLIO">
+        <accountName>SB3TR REPO</accountName>
+      </account>
+      <account id="NOSTRO">
+        <accountName>EC CASH USD</accountName>
+      </account>
+      <account id="DEPO">
+        <accountName>
+        </accountName>
+        <accountType>Depo</accountType>
+      </account>
+    </m:failReport>
+  </list>
