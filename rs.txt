@@ -1,1 +1,0 @@
-=IIF(IsNothing(LookupSet("CPI", Fields!clientnature.Value, Fields!clientcount.Value, "summary2")(0)),0,LookupSet("CPI", Fields!clientnature.Value, Fields!clientcount.Value, "summary2")(0))
