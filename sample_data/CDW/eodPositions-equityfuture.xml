@@ -1,0 +1,1825 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <list itemType="positionReport">
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1GMK_HDG"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>ESH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">ES</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">ESH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX55553649-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">ESH5 CME</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01BY935K0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394967</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394966</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">ESH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>-7517656.25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-7517656.25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>6014.125</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>24393.75</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>149706.25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-78.2</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>-25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>-25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>50</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1GMK_HDG">
+        <accountId accountIdScheme="mhi:book-ref">1GMK</accountId>
+        <accountId accountIdScheme="mhi:book-type">HDG</accountId>
+        <accountName>1GMK HDG</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1IG_AV"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>EUR</currency>
+              <futureContractReference>VGH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">FESX_20250321</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">VGH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">675_7793482</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">VGH5 EUX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG017Q95K87</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394963</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394962</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">VGH525</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ISIN">DE000C6XKBZ9</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">VGH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">FESX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX54824157-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ALTINISID">XEURFESX        FF2025-03-210000000000000000000</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FUTURES_ISIN">DE000C6XKBZ9</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>5454.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-121550</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-98860</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-945</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>10</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1IG_AV">
+        <accountId accountIdScheme="mhi:book-ref">1IG</accountId>
+        <accountId accountIdScheme="mhi:book-type">AV</accountId>
+        <accountName>1IG AV</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1IG_AV"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>ESH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">ES</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">ESH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX55553649-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">ESH5 CME</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01BY935K0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394967</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394966</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">ESH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>6014.125</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>61887.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>147450</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-1012</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>50</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1IG_AV">
+        <accountId accountIdScheme="mhi:book-ref">1IG</accountId>
+        <accountId accountIdScheme="mhi:book-type">AV</accountId>
+        <accountName>1IG AV</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1IG_AV"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>NQH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">NQH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">NQH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">NQ</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">NQH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX61630762-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">NQH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">NQH5 CME</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01K855F05</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002395562</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002395561</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">NQH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>21523.25</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>91835</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>91835</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-92</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>20</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1IG_AV">
+        <accountId accountIdScheme="mhi:book-ref">1IG</accountId>
+        <accountId accountIdScheme="mhi:book-type">AV</accountId>
+        <accountName>1IG AV</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1IG_BC"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>EUR</currency>
+              <futureContractReference>VGH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">FESX_20250321</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">VGH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">675_7793482</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">VGH5 EUX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG017Q95K87</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394963</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394962</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">VGH525</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ISIN">DE000C6XKBZ9</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">VGH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">FESX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX54824157-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ALTINISID">XEURFESX        FF2025-03-210000000000000000000</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FUTURES_ISIN">DE000C6XKBZ9</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>5454.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-2750</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-2750</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-63</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>10</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1IG_BC">
+        <accountId accountIdScheme="mhi:book-ref">1IG</accountId>
+        <accountId accountIdScheme="mhi:book-type">BC</accountId>
+        <accountName>1IG BC</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1IG_CR"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>EUR</currency>
+              <futureContractReference>VGH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">FESX_20250321</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">VGH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">675_7793482</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">VGH5 EUX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG017Q95K87</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394963</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394962</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">VGH525</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ISIN">DE000C6XKBZ9</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">VGH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">FESX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX54824157-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ALTINISID">XEURFESX        FF2025-03-210000000000000000000</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FUTURES_ISIN">DE000C6XKBZ9</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>5454.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-36.54</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>10</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1IG_CR">
+        <accountId accountIdScheme="mhi:book-ref">1IG</accountId>
+        <accountId accountIdScheme="mhi:book-type">CR</accountId>
+        <accountName>1IG CR</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1_GMT"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>EUR</currency>
+              <futureContractReference>VGH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">FESX_20250321</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">VGH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">675_7793482</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">VGH5 EUX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG017Q95K87</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394963</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394962</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">VGH525</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ISIN">DE000C6XKBZ9</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">VGH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">FESX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX54824157-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:ALTINISID">XEURFESX        FF2025-03-210000000000000000000</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FUTURES_ISIN">DE000C6XKBZ9</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>5454.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>12250</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>7360</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>-220.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>EUR</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>10</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1_GMT">
+        <accountId accountIdScheme="mhi:book-ref">1</accountId>
+        <accountId accountIdScheme="mhi:book-type">GMT</accountId>
+        <accountName>1 GMT</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1_GMT"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>ESH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">ES</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">ESH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX55553649-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">ESH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">ESH5 CME</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01BY935K0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002394967</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002394966</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">ESH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>6014.125</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-22050</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-37612.5</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-60.72</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>50</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1_GMT">
+        <accountId accountIdScheme="mhi:book-ref">1</accountId>
+        <accountId accountIdScheme="mhi:book-type">GMT</accountId>
+        <accountName>1 GMT</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1_GMT"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>RTYH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">RTYH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">RTYH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">RTY</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">RTYH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX62197357-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">RTYH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">RTYH5 CME</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01KJ7VL61</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002398959</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002398958</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">RTYH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>2188.45</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>14675</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>14675</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-15.2</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>50</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1_GMT">
+        <accountId accountIdScheme="mhi:book-ref">1</accountId>
+        <accountId accountIdScheme="mhi:book-type">GMT</accountId>
+        <accountName>1 GMT</accountName>
+      </account>
+    </positionReport>
+    <positionReport xmlns="http://www.fpml.org/FpML-5/reporting" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" fpmlVersion="5-6" xmlns:m="urn:com.mizuho.bdm" xmlns:mhi="urn:com.mizuho.bdm.mhi" xsi:schemaLocation="urn:com.mizuho.bdm http://svc-bdmentity01p:8080/schema/8.2.0/com/mizuho/bdm/fpml/mizuho-fpml.xsd">
+      <validation validationScheme="mhi:hash-value"/>
+      <onBehalfOf>
+        <partyReference href="HOUSE"/>
+      </onBehalfOf>
+      <asOfDate>2025-02-24</asOfDate>
+      <dataSetName>Murex Cash Positions</dataSetName>
+      <quotationCharacteristics>
+        <currency>PLACEHOLDER</currency>
+        <currencyType>SettlementCurrency</currencyType>
+      </quotationCharacteristics>
+      <position xsi:type="m:ReportedPosition">
+        <reportingRoles>
+          <baseAccount href="1_GMT"/>
+        </reportingRoles>
+        <constituent>
+          <holding xsi:type="m:Holding">
+            <future xsi:type="m:Future">
+              <currency>USD</currency>
+              <futureContractReference>UXH5</futureContractReference>
+              <m:futureContractId instrumentIdScheme="mhi:FULLSYMB">VX_20250318</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:TICKER">UXH5</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBTRDGSYMB">VX</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNQTCK">UXH5 Index</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBUNIQUE">IX67356205-0</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:FEEDINSID">000d4w</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBCPTICK">UXH5 CBF</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:BBGLOBAL">BBG01NH1FHM9</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:listing-id">100002413105</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:security-id">100002413104</m:futureContractId>
+              <m:futureContractId instrumentIdScheme="mhi:SECREF">UXH525</m:futureContractId>
+            </future>
+            <quantity>
+              <number>1</number>
+            </quantity>
+            <primaryAssetClass assetClassScheme="mhi:taxonomy-product-group">Derivs - XT</primaryAssetClass>
+            <secondaryAssetClass assetClassScheme="mhi:taxonomy-asset-class">Equity</secondaryAssetClass>
+            <productType productTypeScheme="mhi:product-type">Derivs - XT:Equity:Future:Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-product">Future</productType>
+            <productType productTypeScheme="mhi:taxonomy-sub-product">Equity Index</productType>
+            <productType productTypeScheme="mhi:taxonomy-alias">Future EQD</productType>
+            <productType productTypeScheme="Murex:product-group">FUT</productType>
+            <productType productTypeScheme="Murex:product-family">EQD</productType>
+            <productType productTypeScheme="Murex:product-typology">Equity Index Future</productType>
+            <productId productIdScheme="mhi:taxonomy-ref">2302</productId>
+            <productId productIdScheme="Murex:product-typology-id">1115</productId>
+            <productId productIdScheme="Murex:trade-typology-id">1115</productId>
+            <m:system>
+              <m:systemId>MUREX3</m:systemId>
+            </m:system>
+          </holding>
+        </constituent>
+        <valuation>
+          <quote>
+            <value>364500</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>364500</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateMarketValue</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>20</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>20</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDatePositionAmount</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>18.225</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">MarketPrice</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalAccruedInterest</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">RealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-4500</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">VariationMargin</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>3500</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnrealisedPnL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>-208</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TotalFees</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ModDuration</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BoughtCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">PastCoupon</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DailyAccrued</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">BondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CleanBondPL</measureType>
+            <currency>USD</currency>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">CurrentRate</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">DaysSinceLastCoupon</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnsettledStockQuantityRemaining</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">AverageAccountingPrice</measureType>
+          </quote>
+          <quote>
+            <value>0</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">UnderlyingModifiedDuration</measureType>
+          </quote>
+          <quote>
+            <value>20</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">ValueDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>20</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">TradeDateNumberOfLots</measureType>
+          </quote>
+          <quote>
+            <value>1000</value>
+            <measureType assetMeasureScheme="mizuho:asset-measure">LotSize</measureType>
+          </quote>
+        </valuation>
+        <m:accountingClassification accountingClassificationScheme="mhi:accounting-classification">FVTPL</m:accountingClassification>
+      </position>
+      <party id="HOUSE">
+        <partyId partyIdScheme="mizuho:organisation-id">MHI</partyId>
+      </party>
+      <account id="1_GMT">
+        <accountId accountIdScheme="mhi:book-ref">1</accountId>
+        <accountId accountIdScheme="mhi:book-type">GMT</accountId>
+        <accountName>1 GMT</accountName>
+      </account>
+    </positionReport>
+  </list>
